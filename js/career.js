@@ -26,7 +26,7 @@ window.CAREER = {
         'Developed and submitted the Part B (Construction) tender Clause 31 programme under NEC4 ECC, incorporating planned Completion, method statements, key dates, provisions for float, time risk allowance and health and safety requirements.',
         'Maintain integrated logic across design, consents, procurement, enabling works, outage windows and construction, so interfaces and access constraints are correctly represented.',
         'Analyse critical and near-critical paths each period, identify emerging schedule threats, and issue early warnings to the project and commercial teams.',
-        'Support compensation event and change assessment through schedule impact analysis and supporting programme evidence.',
+        'Support compensation event and change management through schedule impact analysis and supporting programme evidence.',
       ],
     },
     {
