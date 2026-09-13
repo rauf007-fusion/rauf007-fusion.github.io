@@ -1,0 +1,1 @@
+{"key":"cp_test","name":"Critical path test","status":"pass","total":1,"page":1,"page_size":1000,"pages":1,"rows":[{"activity_id":"A1390","name":"Build package 39","duration":50.0,"total_float":0.0,"issue":"test activity"}]}
