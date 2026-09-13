@@ -1,0 +1,322 @@
+/* ==========================================================================
+   A · Blueprint - the site as an engineering drawing sheet.
+
+   Drafting paper, cobalt ink, a sheet frame with zone marks, and the facts
+   that matter set in a title block - the panel every engineer reads first on
+   a drawing. Square corners throughout: nothing on a drawing is rounded that
+   the thing it draws is not.
+
+   Every rule is scoped to [data-site="blueprint"], so this file does nothing
+   unless the site's published theme (site-theme.js) or ?theme= selects it.
+   ========================================================================== */
+
+:root[data-site="blueprint"] {
+  --paper: #f4f2ec;
+  --cobalt: #2350c8;
+  --cobalt-deep: #173a99;
+  --zone: #6b82c9;
+
+  --bg: #f4f2ec;
+  --surface: #faf9f5;
+  --surface-2: #efede5;
+  --line: rgba(35, 80, 200, .30);
+  --line-soft: rgba(35, 80, 200, .13);
+  --text: #14213d;
+  --muted: #45547a;
+  --faint: #56668c;
+
+  --accent: #2350c8;
+  --accent-strong: #2350c8;
+  --accent-soft: rgba(35, 80, 200, .08);
+  --accent-line: rgba(35, 80, 200, .45);
+
+  /* the light-mode sector set, validated for a light surface */
+  --sec-1: #7c3aed;
+  --sec-2: #0891b2;
+  --sec-3: #db2777;
+  --sec-4: #c2740a;
+  --sec-5: #2a78d6;
+  --sec-6: #15966a;
+
+  --display: 'Archivo', 'Segoe UI', system-ui, sans-serif;
+  --body: 'Archivo', 'Segoe UI', system-ui, sans-serif;
+  --mono: 'JetBrains Mono', 'Cascadia Code', Consolas, monospace;
+  --radius: 0px;
+  --maxw: 1240px;
+  color-scheme: light;
+}
+
+/* this design's pieces on, the original design's pieces off */
+[data-site="blueprint"] .only-cur,
+[data-site="blueprint"] #themeBtn,
+[data-site="blueprint"] .mesh,
+[data-site="blueprint"] .grid-bg { display: none !important; }
+[data-site="blueprint"] .mark .only-bp,
+[data-site="blueprint"] .bp-sheet,
+[data-site="blueprint"] .bp-rev { display: inline-block; }
+[data-site="blueprint"] .dimline,
+[data-site="blueprint"] .titleblock,
+[data-site="blueprint"] .bp-zones { display: block; }
+
+/* --------------------------------------------------------------- the sheet */
+[data-site="blueprint"] body {
+  position: relative;
+  margin: 26px;
+  border: 1.5px solid var(--cobalt);
+  background-color: var(--paper);
+  background-image:
+    linear-gradient(rgba(35, 80, 200, .065) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(35, 80, 200, .065) 1px, transparent 1px),
+    linear-gradient(rgba(35, 80, 200, .11) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(35, 80, 200, .11) 1px, transparent 1px);
+  background-size: 24px 24px, 24px 24px, 120px 120px, 120px 120px;
+  font-size: 16px;
+}
+[data-site="blueprint"] ::selection { background: rgba(35, 80, 200, .18); }
+[data-site="blueprint"] :focus-visible { border-radius: 0; }
+[data-site="blueprint"] a:hover { color: var(--cobalt-deep); }
+
+/* zone marks sit in the margin outside the frame */
+.bp-zones {
+  position: absolute; inset: -27px; pointer-events: none;
+  font: 10px/1 var(--mono); color: var(--zone);
+}
+.bp-zones .zx {
+  position: absolute; top: 9px; left: 27px; right: 27px;
+  display: flex; justify-content: space-around;
+}
+.bp-zones .zy {
+  position: absolute; top: 27px; bottom: 27px; left: 9px;
+  display: flex; flex-direction: column; justify-content: space-around;
+}
+.bp-zones .zy.r { left: auto; right: 9px; }
+
+/* the progress bar is a thin ink rule, not a glow */
+[data-site="blueprint"] .progress i { background: var(--cobalt); box-shadow: none; height: 2px; }
+
+/* ------------------------------------------------------------------- nav */
+[data-site="blueprint"] .nav {
+  background: color-mix(in srgb, var(--paper) 94%, transparent);
+  backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);
+  border-bottom: 1px solid rgba(35, 80, 200, .35);
+}
+[data-site="blueprint"] .nav .wrap { height: 72px; gap: 22px; }
+[data-site="blueprint"] .mark { gap: 12px; }
+[data-site="blueprint"] .mark b {
+  width: 38px; height: 38px; border-radius: 0; background: none; box-shadow: none;
+  border: 1.5px solid var(--cobalt); color: var(--cobalt);
+  font-weight: 800; font-stretch: 118%; font-size: 14px;
+}
+[data-site="blueprint"] .mark .only-bp {
+  font: 500 12px var(--mono); letter-spacing: .6px; text-transform: uppercase; color: var(--text);
+}
+[data-site="blueprint"] .nav ul { counter-reset: nav; gap: 2px; }
+[data-site="blueprint"] .nav li { counter-increment: nav; }
+[data-site="blueprint"] .nav a.link {
+  font: 500 12px var(--mono); letter-spacing: .6px; text-transform: uppercase;
+  color: #3a4a6e; border-radius: 0; padding: 8px 10px;
+}
+[data-site="blueprint"] .nav a.link::before {
+  content: counter(nav, decimal-leading-zero) ' '; color: var(--cobalt);
+}
+[data-site="blueprint"] .nav a.link:hover { background: var(--accent-soft); color: var(--text); }
+[data-site="blueprint"] .nav a.link.on { background: none; color: var(--text); box-shadow: inset 0 -1.5px 0 var(--cobalt); }
+.bp-rev {
+  font: 500 11px var(--mono); text-transform: uppercase; letter-spacing: .4px; white-space: nowrap;
+  padding: 5px 10px; border: 1px solid var(--cobalt); color: var(--cobalt);
+}
+[data-site="blueprint"] .iconbtn { border-radius: 0; border-color: var(--cobalt); background: none; }
+
+/* ------------------------------------------------------------------ hero */
+[data-site="blueprint"] .hero { padding: 58px 0 0; overflow: visible; }
+[data-site="blueprint"] .hero-top {
+  display: grid; grid-template-columns: minmax(0, 1fr) 430px; gap: 48px; align-items: end;
+}
+[data-site="blueprint"] .hero-main { display: flex; flex-direction: column; align-items: flex-start; }
+.bp-sheet {
+  font: 500 11.5px var(--mono); letter-spacing: 1.2px; text-transform: uppercase; color: var(--cobalt);
+}
+
+/* a dimension line over the name, the way a drawing states a length */
+.dimline {
+  position: relative; width: 100%; max-width: 700px; height: 17px; margin-top: 31px;
+  border-left: 1px solid var(--cobalt); border-right: 1px solid var(--cobalt);
+}
+.dimline::before {
+  content: ''; position: absolute; left: 0; right: 0; top: 8px; height: 1px; background: var(--cobalt);
+}
+.dimline span {
+  position: absolute; left: 50%; top: -1px; transform: translateX(-50%); white-space: nowrap;
+  padding: 0 10px; background: var(--paper);
+  font: 500 11px/19px var(--mono); text-transform: uppercase; color: var(--cobalt);
+}
+
+[data-site="blueprint"] .hero h1 {
+  font-family: var(--display); font-weight: 800; font-stretch: 116%;
+  font-size: clamp(50px, 7.4vw, 108px); letter-spacing: -3px; line-height: .9;
+  margin: 14px 0 0; color: var(--text);
+}
+[data-site="blueprint"] .hero h1 .grad {
+  background: none; -webkit-background-clip: border-box; background-clip: border-box; color: var(--text);
+}
+[data-site="blueprint"] .hero .role {
+  font-family: var(--display); font-size: 22px; font-weight: 600; font-stretch: 108%;
+  letter-spacing: 0; margin: 24px 0 0;
+}
+[data-site="blueprint"] .hero .lede { margin: 16px 0 0; max-width: 580px; color: var(--muted); }
+[data-site="blueprint"] .hero .cta { margin-top: 34px; }
+
+[data-site="blueprint"] .btn { border-radius: 0; padding: 14px 22px; font-weight: 600; }
+[data-site="blueprint"] .btn.primary { background: var(--cobalt); box-shadow: none; }
+[data-site="blueprint"] .btn.primary:hover { background: var(--cobalt-deep); box-shadow: none; transform: none; }
+[data-site="blueprint"] .btn.ghost { background: transparent; border: 1.5px solid var(--text); color: var(--text); }
+[data-site="blueprint"] .btn.ghost:hover { border-color: var(--cobalt); color: var(--cobalt); }
+
+/* the title block */
+.titleblock { border: 1.5px solid var(--cobalt); background: rgba(250, 249, 245, .94); }
+.titleblock .tb-h {
+  padding: 9px 14px; background: var(--cobalt); color: #fff;
+  font: 500 11px var(--mono); letter-spacing: 1.2px; text-transform: uppercase;
+}
+.titleblock dl { display: grid; grid-template-columns: 108px minmax(0, 1fr); margin: 0; }
+.titleblock dt, .titleblock dd { padding: 9px 14px; border-bottom: 1px solid var(--line); margin: 0; }
+.titleblock dt {
+  border-right: 1px solid var(--line);
+  font: 10.5px/1.9 var(--mono); text-transform: uppercase; color: var(--faint);
+}
+.titleblock dd { font-size: 14px; line-height: 1.45; }
+.titleblock dd b { font-weight: 600; }
+.titleblock dd.hl { font-weight: 700; color: var(--cobalt); }
+.titleblock dt:nth-last-of-type(1), .titleblock dd:nth-last-of-type(1) { border-bottom: 0; }
+.titleblock .ok {
+  display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #1f9d55;
+  margin-right: 8px; vertical-align: 1px;
+}
+.titleblock .tb-f { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 1.5px solid var(--cobalt); }
+.titleblock .tb-f > div { padding: 8px 14px; }
+.titleblock .tb-f > div + div { border-left: 1px solid var(--line); }
+.titleblock .tb-f small { display: block; font: 9.5px var(--mono); text-transform: uppercase; color: var(--faint); }
+.titleblock .tb-f b { font-size: 15px; font-weight: 700; }
+.titleblock .tb-f b.m { font-family: var(--mono); }
+.titleblock .tb-f b.c { color: var(--cobalt); }
+
+/* headline figures, read as dimensions */
+[data-site="blueprint"] .stats {
+  counter-reset: dim; margin-top: 64px; gap: 0; border-radius: 0; background: none;
+  border: 0; border-top: 1.5px solid var(--cobalt); border-bottom: 1.5px solid var(--cobalt);
+}
+[data-site="blueprint"] .stat { counter-increment: dim; background: none; padding: 22px 26px; }
+[data-site="blueprint"] .stat + .stat { border-left: 1px solid var(--line); }
+[data-site="blueprint"] .stat::before {
+  content: 'DIM. ' counter(dim, decimal-leading-zero);
+  display: block; font: 500 10.5px var(--mono); color: var(--cobalt); margin-bottom: 4px;
+}
+[data-site="blueprint"] .stat .n {
+  font-family: var(--display); font-weight: 800; font-stretch: 112%;
+  font-size: clamp(36px, 3.8vw, 50px); letter-spacing: -1.5px; line-height: 1.05;
+}
+[data-site="blueprint"] .stat .n em { color: inherit; }
+[data-site="blueprint"] .stat .l { font-size: 14px; margin-top: 4px; }
+
+/* -------------------------------------------------------------- sections */
+[data-site="blueprint"] main { counter-reset: sec sheet; }
+[data-site="blueprint"] main > section[id] { counter-increment: sec; }
+[data-site="blueprint"] .kicker {
+  font: 500 12px var(--mono); letter-spacing: 1.2px; gap: 18px; color: var(--cobalt); margin-bottom: 18px;
+}
+[data-site="blueprint"] .kicker::before {
+  content: counter(sec, decimal-leading-zero) ' \2014'; width: auto; height: auto; background: none;
+}
+[data-site="blueprint"] .kicker::after { content: ''; flex: 1; height: 1px; background: rgba(35, 80, 200, .4); }
+[data-site="blueprint"] .contact .kicker::after { display: none; }
+[data-site="blueprint"] h2 {
+  font-family: var(--display); font-weight: 800; font-stretch: 110%; letter-spacing: -1.5px;
+}
+[data-site="blueprint"] .intro { color: var(--muted); }
+
+[data-site="blueprint"] .card {
+  border: 1.5px solid var(--cobalt); border-radius: 0; background: var(--surface);
+}
+[data-site="blueprint"] .spot::before { display: none; }
+[data-site="blueprint"] .chip { border-radius: 0; background: transparent; border-color: var(--line); color: var(--muted); }
+[data-site="blueprint"] .now .tag { font-family: var(--mono); }
+[data-site="blueprint"] .now h3,
+[data-site="blueprint"] .project h3,
+[data-site="blueprint"] .skill h3,
+[data-site="blueprint"] .detail h3,
+[data-site="blueprint"] .subhead { font-weight: 700; font-stretch: 108%; letter-spacing: -.3px; }
+
+/* the two projects, as numbered drawing sheets */
+[data-site="blueprint"] .project { counter-increment: sheet; }
+[data-site="blueprint"] .project::after {
+  content: 'SHEET ' counter(sheet, decimal-leading-zero);
+  position: absolute; top: 0; left: 0; padding: 4px 10px;
+  font: 500 10.5px var(--mono); letter-spacing: 1px; color: #fff; background: var(--cobalt);
+}
+[data-site="blueprint"] .project .label b { border-radius: 0; background: transparent; border-color: var(--cobalt); }
+[data-site="blueprint"] .viewer { background: var(--surface-2); border-left: 1.5px solid var(--cobalt); }
+[data-site="blueprint"] .tabs button {
+  border-radius: 0; font: 500 12px var(--mono); text-transform: uppercase; letter-spacing: .4px;
+}
+[data-site="blueprint"] .tabs button[aria-selected="true"] { background: var(--surface); border-color: var(--cobalt); color: var(--cobalt); }
+[data-site="blueprint"] .shot { border-radius: 0; border-color: var(--cobalt); background: var(--surface); }
+[data-site="blueprint"] .shot .zoomhint { border-radius: 0; font-family: var(--mono); }
+[data-site="blueprint"] .stack span { border-radius: 0; background: transparent; border-color: var(--line); }
+
+/* ------------------------------------------------------------ the Gantt */
+[data-site="blueprint"] .legend button { border-radius: 0; background: var(--surface); font-family: var(--mono); font-size: 12px; }
+[data-site="blueprint"] .legend button i { border-radius: 0; }
+[data-site="blueprint"] .axis { border-bottom-color: var(--cobalt); }
+[data-site="blueprint"] .grow .who b { font-weight: 600; }
+[data-site="blueprint"] .bar {
+  border-radius: 0; box-shadow: none; font: 500 11px var(--mono);
+}
+[data-site="blueprint"] .bar:hover,
+[data-site="blueprint"] .bar:focus-visible { box-shadow: 0 0 0 2px var(--surface), 0 0 0 3.5px var(--text); filter: none; }
+[data-site="blueprint"] .bar[aria-pressed="true"] { box-shadow: 0 0 0 2px var(--surface), 0 0 0 3.5px var(--text); }
+[data-site="blueprint"] .ms { border-radius: 0; background: var(--surface); border-color: var(--cobalt); }
+[data-site="blueprint"] .ms:hover, [data-site="blueprint"] .ms:focus-visible { background: var(--cobalt); }
+[data-site="blueprint"] .ms.ms-edu { border-color: var(--muted); }
+[data-site="blueprint"] .ms.ms-edu:hover { background: var(--muted); }
+[data-site="blueprint"] .today { border-left-color: var(--cobalt); }
+[data-site="blueprint"] .today span { border-radius: 0; background: var(--cobalt); text-transform: uppercase; }
+[data-site="blueprint"] .tip { border-radius: 0; border-color: var(--cobalt); background: var(--surface); box-shadow: 4px 4px 0 rgba(35, 80, 200, .18); }
+[data-site="blueprint"] .detail .proj { border-radius: 0; background: var(--surface-2); }
+[data-site="blueprint"] .detail li::before { border-radius: 0; }
+
+/* ------------------------------------------------- skills and contact */
+[data-site="blueprint"] .skill .ic { border-radius: 0; background: transparent; border: 1.5px solid var(--cobalt); }
+[data-site="blueprint"] .tool { border-radius: 0; background: var(--surface); border-color: var(--line); }
+[data-site="blueprint"] .tool small { border-radius: 0; }
+[data-site="blueprint"] .cert .yr { border-radius: 0; background: transparent; border-color: var(--cobalt); font-weight: 700; }
+[data-site="blueprint"] footer {
+  border-top: 1.5px solid var(--cobalt); font: 12px var(--mono); text-transform: uppercase; letter-spacing: .5px;
+}
+[data-site="blueprint"] .lightbox img,
+[data-site="blueprint"] .lightbox figure { border-radius: 0; }
+
+/* ------------------------------------------------------------ responsive */
+@media (max-width: 1100px) {
+  [data-site="blueprint"] .bp-rev { display: none; }
+}
+@media (max-width: 980px) {
+  [data-site="blueprint"] .hero-top { grid-template-columns: 1fr; gap: 36px; }
+  [data-site="blueprint"] .titleblock { max-width: 560px; }
+  [data-site="blueprint"] .stat + .stat { border-left: 0; }
+  [data-site="blueprint"] .stat:nth-child(2n) { border-left: 1px solid var(--line); }
+  [data-site="blueprint"] .stat:nth-child(n+3) { border-top: 1px solid var(--line); }
+}
+@media (max-width: 760px) {
+  [data-site="blueprint"] body { margin: 10px; }
+  .bp-zones { display: none !important; }
+  [data-site="blueprint"] .nav .wrap { height: 64px; }
+  [data-site="blueprint"] .nav ul { top: 64px; background: var(--paper); }
+  [data-site="blueprint"] .mark .only-bp { display: none; }
+  [data-site="blueprint"] .hero { padding-top: 40px; }
+  [data-site="blueprint"] .hero h1 { font-size: clamp(38px, 11.5vw, 60px); font-stretch: 108%; letter-spacing: -1.5px; }
+  [data-site="blueprint"] .hero .role { font-size: 18px; line-height: 1.4; }
+  [data-site="blueprint"] .dimline span { font-size: 10px; }
+  [data-site="blueprint"] .titleblock dl { grid-template-columns: 92px minmax(0, 1fr); }
+  [data-site="blueprint"] .stat { padding: 18px 16px; }
+  [data-site="blueprint"] .vitem { border: 1.5px solid var(--cobalt); border-left: 4px solid var(--c); }
+}

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Site admin — Mohammed Rauf</title>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="referrer" content="no-referrer">
+  <!-- This page talks to GitHub and nothing else: no third-party scripts,
+       fonts or styles, so nothing loaded here can read the token. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self' https://api.github.com; frame-src 'self'; base-uri 'none'; form-action 'none'">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2312121f'/%3E%3Ctext x='16' y='21.5' font-family='Arial' font-weight='700' font-size='13' fill='white' text-anchor='middle'%3EMR%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="in">
+    <span class="brand"><b>MR</b> Site admin</span>
+    <span class="who" id="who" hidden></span>
+    <button class="link" id="signOut" type="button" hidden>Sign out</button>
+    <a class="link" href="./" target="_blank" rel="noopener">View site ↗</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============================================================ sign in -->
+  <section class="card signin" id="signin" aria-labelledby="signin-h">
+    <h1 id="signin-h">Sign in</h1>
+    <p class="sub">
+      This panel changes the live website, so it only opens for the account that owns it.
+      Sign in with a GitHub token that can write to <b>rauf007-fusion.github.io</b>.
+    </p>
+
+    <form id="signinForm" novalidate>
+      <label for="token">GitHub token</label>
+      <input id="token" name="token" type="password" autocomplete="off" spellcheck="false"
+             placeholder="github_pat_…" required>
+      <label class="check"><input type="checkbox" id="remember"> Remember on this device</label>
+      <p class="err" id="signinErr" role="alert" hidden></p>
+      <button class="btn primary" type="submit" id="signinBtn">Sign in</button>
+    </form>
+
+    <details class="how">
+      <summary>How to create the token (two minutes, once)</summary>
+      <ol>
+        <li>Open <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">GitHub → new fine-grained token</a>, signed in as <b>rauf007-fusion</b>.</li>
+        <li>Name it <i>Portfolio site admin</i> and pick an expiry — 90 days is sensible.</li>
+        <li>Under <b>Repository access</b>, choose <b>Only select repositories</b> → <b>rauf007-fusion.github.io</b>.</li>
+        <li>Under <b>Permissions → Repository permissions</b>, set <b>Contents</b> to <b>Read and write</b>. Leave everything else as it is.</li>
+        <li>Generate the token, copy it and paste it above.</li>
+      </ol>
+      <p class="fine">
+        The token stays in this browser — for this tab only, unless you tick Remember — and is
+        sent only to GitHub (api.github.com). Scoped like this it can change files in this one
+        website and nothing else in your account. Don't tick Remember on a shared computer.
+      </p>
+    </details>
+  </section>
+
+  <!-- ============================================================== panel -->
+  <section id="panel" hidden aria-labelledby="panel-h">
+    <div class="head">
+      <div>
+        <h1 id="panel-h">Site design</h1>
+        <p class="sub" id="liveLine">Checking the live site…</p>
+      </div>
+    </div>
+
+    <fieldset class="opts" id="opts">
+      <legend class="sr-only">Choose the design visitors see</legend>
+      <!-- cards are built by admin.js -->
+    </fieldset>
+
+    <div class="bar">
+      <button class="btn primary" type="button" id="publish" disabled>Publish this design</button>
+      <p class="status" id="status" role="status" aria-live="polite"></p>
+    </div>
+
+    <p class="fine">
+      Publishing commits one small file, <code>site-theme.js</code>, to the website's repository.
+      GitHub Pages rebuilds the site in about a minute. A visitor who opened the site in the last
+      ten minutes may keep the previous design until their browser refreshes its copy
+      (Ctrl + F5 shows the new one straight away).
+    </p>
+  </section>
+</main>
+
+<script src="js/admin.js"></script>
+</body>
+</html>

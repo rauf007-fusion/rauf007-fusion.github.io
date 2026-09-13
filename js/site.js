@@ -305,8 +305,10 @@
 
   msRow('Certifications', 'professional', C.certifications, 'cert');
 
+  // the control-room design calls today what a programme does: the data date
+  var todayWord = root.getAttribute('data-site') === 'control' ? 'Data date ▸ ' : 'Today · ';
   html.push('<div class="today" style="left:calc(220px + (100% - 220px) * ' + (pct(NOW) / 100).toFixed(5) + ')">' +
-    '<span>Today · ' + MON[now.getMonth()] + ' ' + now.getFullYear() + '</span></div>');
+    '<span>' + todayWord + MON[now.getMonth()] + ' ' + now.getFullYear() + '</span></div>');
 
   inner.innerHTML = html.join('');
 
@@ -442,4 +444,6 @@
   }).join('');
 
   $('#yr').textContent = now.getFullYear();
+  var dd = $('#dataDate');
+  if (dd) dd.textContent = now.getDate() + ' ' + MON[now.getMonth()] + ' ' + now.getFullYear();
 })();

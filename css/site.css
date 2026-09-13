@@ -88,6 +88,11 @@ a:hover { color: var(--text); }
 
 .wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 28px; }
 .mono { font-family: var(--mono); }
+
+/* Pieces that belong to one design only. The Blueprint and Control-room
+   stylesheets switch their own pieces on; this design's pieces are hidden
+   there (see theme-*.css). */
+.only-bp, .only-cr { display: none; }
 .sr-only {
   position: absolute; width: 1px; height: 1px; overflow: hidden;
   clip: rect(0 0 0 0); white-space: nowrap;

@@ -12,15 +12,52 @@
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%238b5cf6'/%3E%3Ctext x='16' y='21.5' font-family='Arial' font-weight='700' font-size='13' fill='white' text-anchor='middle'%3EMR%3C/text%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap">
   <link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="css/theme-blueprint.css">
+  <link rel="stylesheet" href="css/theme-control.css">
+  <!-- the published theme, set from admin.html -->
+  <script src="site-theme.js"></script>
   <script>
-    // set the theme before first paint, so a light-mode visitor never sees a dark flash
-    try {
-      var t = localStorage.getItem('mr-theme') ||
-        (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
-      document.documentElement.setAttribute('data-theme', t);
-    } catch (e) {}
+    // Choose the design before first paint. The published theme comes from
+    // site-theme.js; ?theme=... previews another one without changing it.
+    (function () {
+      var d = document.documentElement;
+      var FONTS = {
+        current: 'IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Space+Grotesk:wght@500;600;700',
+        blueprint: 'Archivo:wdth,wght@62..125,400..800&family=JetBrains+Mono:wght@400;500;700',
+        control: 'B612+Mono:wght@400;700&family=B612:wght@400;700'
+      };
+      var site = FONTS[window.SITE_THEME] ? window.SITE_THEME : 'current';
+      try {
+        var q = new URLSearchParams(location.search).get('theme');
+        if (q && FONTS[q]) site = q;
+      } catch (e) {}
+      d.setAttribute('data-site', site);
+
+      // Blueprint is drawn on paper and the control room is a dark display;
+      // only the original design follows the visitor's light/dark choice.
+      var mode = site === 'blueprint' ? 'light' : site === 'control' ? 'dark' : null;
+      if (!mode) {
+        try {
+          mode = localStorage.getItem('mr-theme') ||
+            (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+        } catch (e) { mode = 'dark'; }
+      }
+      d.setAttribute('data-theme', mode);
+
+      var f = document.createElement('link');
+      f.rel = 'stylesheet';
+      f.href = 'https://fonts.googleapis.com/css2?family=' + FONTS[site] + '&display=swap';
+      document.head.appendChild(f);
+
+      var tc = { current: '#07070d', blueprint: '#f4f2ec', control: '#0d1013' }[site];
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', tc);
+      if (site !== 'current') {
+        var fill = site === 'blueprint' ? '%232350c8' : '%23f2a93b';
+        var ink = site === 'blueprint' ? 'white' : '%230d1013';
+        document.querySelector('link[rel="icon"]').href = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='" + fill + "'/%3E%3Ctext x='16' y='21.5' font-family='Arial' font-weight='700' font-size='13' fill='" + ink + "' text-anchor='middle'%3EMR%3C/text%3E%3C/svg%3E";
+      }
+    })();
     // Allow scroll reveals from first paint - but if the main script has not
     // started within 3 seconds, give up on them so nothing stays hidden.
     document.documentElement.classList.add('js');
@@ -33,9 +70,20 @@
 
 <div class="progress" aria-hidden="true"><i></i></div>
 
+<!-- Blueprint: zone marks around the sheet frame -->
+<div class="only-bp bp-zones" aria-hidden="true">
+  <div class="zx"><span>A</span><span>B</span><span>C</span><span>D</span><span>E</span><span>F</span></div>
+  <div class="zy"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span></div>
+  <div class="zy r"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span></div>
+</div>
+
 <header class="nav">
   <div class="wrap">
-    <a class="mark" href="#top" aria-label="Mohammed Rauf, back to top"><b>MR</b> Mohammed Rauf</a>
+    <a class="mark" href="#top" aria-label="Mohammed Rauf, back to top"><b>MR</b>
+      <span class="only-cur">Mohammed Rauf</span>
+      <span class="only-bp">M. Rauf — Planning &amp; Controls</span>
+      <span class="only-cr"><em>MR-OPS</em> // Programme control</span>
+    </a>
     <ul id="menu">
       <li><a class="link" href="#about">About</a></li>
       <li><a class="link" href="#work">Work</a></li>
@@ -43,6 +91,9 @@
       <li><a class="link" href="#skills">Skills</a></li>
       <li><a class="link" href="#contact">Contact</a></li>
     </ul>
+    <span class="only-bp bp-rev">Rev C · Sep 2026</span>
+    <span class="only-cr cr-online"><i aria-hidden="true"></i>Online</span>
+    <span class="only-cr cr-date">Data date <b id="dataDate"></b></span>
     <button class="iconbtn menu-toggle" id="menuBtn" aria-label="Open menu" aria-controls="menu" aria-expanded="false">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
     </button>
@@ -59,29 +110,60 @@
     <div class="mesh" aria-hidden="true"><span></span><span></span><span></span></div>
     <div class="grid-bg" aria-hidden="true"></div>
     <div class="wrap">
-      <span class="eyebrow"><span class="dot" aria-hidden="true"></span>Currently: Senior Project Planner, Balfour Beatty</span>
-      <h1 id="hero-h"><span class="grad">Mohammed Rauf</span></h1>
-      <p class="role">Lead / Senior Project Planner · Primavera P6 · Project Controls</p>
-      <p class="lede">
-        I plan complex energy and infrastructure programmes — and build the tools
-        that check whether a programme can be trusted.
-      </p>
-      <div class="cta">
-        <a class="btn primary" href="demo/" target="_blank" rel="noopener">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3l14 9-14 9V3z"/></svg>
-          Try the live demo
-        </a>
-        <a class="btn ghost" href="#career">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h11M3 12h17M3 18h8"/></svg>
-          See the career programme
-        </a>
+      <div class="hero-top">
+        <div class="hero-main">
+          <span class="only-bp bp-sheet">Sheet 00 — General arrangement</span>
+          <span class="only-cr cr-label">Operator</span>
+          <span class="eyebrow only-cur"><span class="dot" aria-hidden="true"></span>Currently: Senior Project Planner, Balfour Beatty</span>
+          <div class="only-bp dimline" aria-hidden="true"><span>15+ yrs · Energy &amp; infrastructure</span></div>
+          <h1 id="hero-h"><span class="grad">Mohammed Rauf</span></h1>
+          <p class="role">Lead / Senior Project Planner · Primavera P6 · Project Controls</p>
+          <p class="lede">
+            I plan complex energy and infrastructure programmes — and build the tools
+            that check whether a programme can be trusted.
+          </p>
+          <div class="cta">
+            <a class="btn primary" href="demo/" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3l14 9-14 9V3z"/></svg>
+              Try the live demo
+            </a>
+            <a class="btn ghost" href="#career">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h11M3 12h17M3 18h8"/></svg>
+              See the career programme
+            </a>
+          </div>
+        </div>
+
+        <!-- Blueprint: the facts a drawing's reader looks for first -->
+        <aside class="only-bp titleblock" aria-label="Summary">
+          <div class="tb-h">Title block</div>
+          <dl>
+            <dt>Project</dt><dd><b>Career programme, 1997 — present</b></dd>
+            <dt>Current</dt><dd>Balfour Beatty · Skye Reinforcement OHL &amp; UGC</dd>
+            <dt>Scale</dt><dd class="hl">£300M+ programme value</dd>
+            <dt>Contract</dt><dd>NEC4 ECC — Clause 31 &amp; 32</dd>
+            <dt>Tools</dt><dd>Primavera P6 · MS Project · Power BI</dd>
+            <dt>Location</dt><dd>Cumbernauld, Scotland</dd>
+            <dt>Status</dt><dd><i class="ok" aria-hidden="true"></i>Open to senior roles · 2 months' notice</dd>
+          </dl>
+          <div class="tb-f">
+            <div><small>Drawn</small><b>M. Rauf</b></div>
+            <div><small>Dwg No.</small><b class="m">MR-001</b></div>
+            <div><small>Rev</small><b class="m c">C</b></div>
+          </div>
+        </aside>
       </div>
 
       <div class="stats" role="list">
-        <div class="stat" role="listitem"><div class="n"><span data-count="15">15</span><em>+</em></div><div class="l">years in planning and project controls</div></div>
-        <div class="stat" role="listitem"><div class="n"><em>£</em><span data-count="300">300</span><em>M+</em></div><div class="l">programme values delivered</div></div>
-        <div class="stat" role="listitem"><div class="n"><span data-count="6">6</span></div><div class="l">concurrent projects under schedule control</div></div>
-        <div class="stat" role="listitem"><div class="n"><span data-count="75">75</span><em>+</em></div><div class="l">change impacts assessed on one programme</div></div>
+        <div class="stat" role="listitem" data-k="Experience"><div class="n"><span data-count="15">15</span><em>+</em></div><div class="l">years in planning and project controls</div></div>
+        <div class="stat" role="listitem" data-k="Programme value"><div class="n"><em>£</em><span data-count="300">300</span><em>M+</em></div><div class="l">programme values delivered</div></div>
+        <div class="stat" role="listitem" data-k="Concurrent projects"><div class="n"><span data-count="6">6</span></div><div class="l">concurrent projects under schedule control</div></div>
+        <div class="stat" role="listitem" data-k="Changes assessed"><div class="n"><span data-count="75">75</span><em>+</em></div><div class="l">change impacts assessed on one programme</div></div>
+        <!-- Control room: assignment and availability tile -->
+        <div class="stat only-cr cr-wide" role="listitem">
+          <div><small>Current assignment</small><span>Balfour Beatty · Skye Reinforcement</span></div>
+          <div><small>Availability</small><span class="ok">Open to senior roles</span><small>2 months' notice</small></div>
+        </div>
       </div>
     </div>
   </section>
