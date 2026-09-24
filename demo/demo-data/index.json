@@ -29,6 +29,7 @@
  "risk-setup": 200,
  "risk": 200,
  "lookahead": 200,
+ "responsible": 200,
  "forensic": 200,
  "nec4": 200,
  "repair-plan": 200
