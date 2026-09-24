@@ -1,1 +1,1 @@
-{"key":"rel_types","name":"Relationship types","status":"fail","total":3,"page":1,"page_size":1000,"pages":1,"rows":[{"rel_type":"FS","count":50,"pct":84.75},{"rel_type":"SS","count":5,"pct":8.47},{"rel_type":"FF","count":4,"pct":6.78}]}
+{"key":"rel_types","name":"Relationship types","status":"fail","total":3,"page":1,"page_size":1000,"pages":1,"rows":[{"rel_type":"FS","count":23,"pct":85.19},{"rel_type":"FF","count":2,"pct":7.41},{"rel_type":"SS","count":2,"pct":7.41}]}
