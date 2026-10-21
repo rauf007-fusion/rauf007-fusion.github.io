@@ -18,6 +18,7 @@
  "check-cp_test": 200,
  "check-cpli": 200,
  "check-bei": 200,
+ "check-late": 200,
  "activities": 200,
  "gantt": 200,
  "wbs": 200,
