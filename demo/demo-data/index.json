@@ -32,6 +32,13 @@
  "lookahead": 200,
  "responsible": 200,
  "responsible-1": 200,
+ "evm": 200,
+ "evm-focus-0": 200,
+ "evm-focus-1": 200,
+ "evm-hours": 200,
+ "evm-level-1": 200,
+ "evm-eac-cpi_spi": 200,
+ "evm-eac-bottom_up": 200,
  "forensic": 200,
  "nec4": 200,
  "repair-plan": 200
