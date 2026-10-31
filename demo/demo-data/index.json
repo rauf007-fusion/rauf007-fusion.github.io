@@ -40,6 +40,12 @@
  "evm-eac-cpi_spi": 200,
  "evm-eac-bottom_up": 200,
  "forensic": 200,
+ "nec4-contract": 200,
+ "nec4-submissions": 200,
+ "nec4-registers": 200,
+ "nec4-settings": 200,
+ "nec4-ecc-rules": 200,
+ "nec4-fragnets": 200,
  "nec4": 200,
  "repair-plan": 200
 }
