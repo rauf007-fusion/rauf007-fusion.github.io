@@ -62,5 +62,6 @@
  "nec4-ecc-rules": 200,
  "nec4-fragnets": 200,
  "nec4": 200,
- "repair-plan": 200
+ "repair-plan": 200,
+ "msproject-notes": 200
 }
