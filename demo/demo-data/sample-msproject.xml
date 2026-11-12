@@ -18,6 +18,7 @@
   <HonorConstraints>1</HonorConstraints>
   <NewTasksEffortDriven>0</NewTasksEffortDriven>
   <SplitsInProgressTasks>1</SplitsInProgressTasks>
+  <TaskUpdatesResource>1</TaskUpdatesResource>
   <MoveCompletedEndsBack>0</MoveCompletedEndsBack>
   <MoveRemainingStartsBack>0</MoveRemainingStartsBack>
   <MoveRemainingStartsForward>1</MoveRemainingStartsForward>
@@ -176,6 +177,9 @@
       <Finish>2024-01-16T12:48:00</Finish>
       <Duration>PT60H48M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Work>PT64H0M0S</Work>
+      <Stop>2024-01-16T12:48:00</Stop>
+      <Resume>2024-01-16T12:48:00</Resume>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -183,7 +187,9 @@
       <ActualStart>2024-01-05T08:00:00</ActualStart>
       <ActualFinish>2024-01-16T12:48:00</ActualFinish>
       <ActualDuration>PT60H48M0S</ActualDuration>
+      <ActualWork>PT64H0M0S</ActualWork>
       <RemainingDuration>PT0H0M0S</RemainingDuration>
+      <RemainingWork>PT0H0M0S</RemainingWork>
       <ConstraintType>0</ConstraintType>
       <CalendarUID>1</CalendarUID>
       <IgnoreResourceCalendar>1</IgnoreResourceCalendar>
@@ -209,6 +215,8 @@
       <Finish>2024-01-13T03:12:00</Finish>
       <Duration>PT24H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Stop>2024-01-13T03:12:00</Stop>
+      <Resume>2024-01-13T03:12:00</Resume>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -242,6 +250,8 @@
       <Finish>2024-01-18T08:00:00</Finish>
       <Duration>PT40H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Stop>2024-01-18T08:00:00</Stop>
+      <Resume>2024-01-18T08:00:00</Resume>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -275,6 +285,9 @@
       <Finish>2024-01-28T08:00:00</Finish>
       <Duration>PT80H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Work>PT80H0M0S</Work>
+      <Stop>2024-01-28T08:00:00</Stop>
+      <Resume>2024-01-28T08:00:00</Resume>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -282,7 +295,9 @@
       <ActualStart>2024-01-14T08:00:00</ActualStart>
       <ActualFinish>2024-01-28T08:00:00</ActualFinish>
       <ActualDuration>PT80H0M0S</ActualDuration>
+      <ActualWork>PT80H0M0S</ActualWork>
       <RemainingDuration>PT0H0M0S</RemainingDuration>
+      <RemainingWork>PT0H0M0S</RemainingWork>
       <ConstraintType>0</ConstraintType>
       <CalendarUID>1</CalendarUID>
       <IgnoreResourceCalendar>1</IgnoreResourceCalendar>
@@ -308,6 +323,8 @@
       <Finish>2024-01-24T03:12:00</Finish>
       <Duration>PT16H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Stop>2024-01-24T03:12:00</Stop>
+      <Resume>2024-01-24T03:12:00</Resume>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -341,6 +358,9 @@
       <Finish>2024-02-02T12:48:00</Finish>
       <Duration>PT76H48M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Work>PT64H0M0S</Work>
+      <Stop>2024-02-02T12:48:00</Stop>
+      <Resume>2024-02-02T12:48:00</Resume>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -348,7 +368,9 @@
       <ActualStart>2024-01-22T08:00:00</ActualStart>
       <ActualFinish>2024-02-02T12:48:00</ActualFinish>
       <ActualDuration>PT76H48M0S</ActualDuration>
+      <ActualWork>PT64H0M0S</ActualWork>
       <RemainingDuration>PT0H0M0S</RemainingDuration>
+      <RemainingWork>PT0H0M0S</RemainingWork>
       <ConstraintType>0</ConstraintType>
       <CalendarUID>1</CalendarUID>
       <IgnoreResourceCalendar>1</IgnoreResourceCalendar>
@@ -374,6 +396,9 @@
       <Finish>2024-01-30T03:12:00</Finish>
       <Duration>PT8H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Work>PT16H0M0S</Work>
+      <Stop>2024-01-30T03:12:00</Stop>
+      <Resume>2024-01-30T03:12:00</Resume>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -381,7 +406,9 @@
       <ActualStart>2024-01-27T08:00:00</ActualStart>
       <ActualFinish>2024-01-30T03:12:00</ActualFinish>
       <ActualDuration>PT8H0M0S</ActualDuration>
+      <ActualWork>PT16H0M0S</ActualWork>
       <RemainingDuration>PT0H0M0S</RemainingDuration>
+      <RemainingWork>PT0H0M0S</RemainingWork>
       <ConstraintType>0</ConstraintType>
       <CalendarUID>1</CalendarUID>
       <IgnoreResourceCalendar>1</IgnoreResourceCalendar>
@@ -407,6 +434,8 @@
       <Finish>2024-01-31T03:12:00</Finish>
       <Duration>PT16H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Stop>2024-01-31T03:12:00</Stop>
+      <Resume>2024-01-31T03:12:00</Resume>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -440,6 +469,9 @@
       <Finish>2024-02-01T03:12:00</Finish>
       <Duration>PT24H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Work>PT16H0M0S</Work>
+      <Stop>2024-02-01T03:12:00</Stop>
+      <Resume>2024-02-01T03:12:00</Resume>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -447,7 +479,9 @@
       <ActualStart>2024-01-29T08:00:00</ActualStart>
       <ActualFinish>2024-02-01T03:12:00</ActualFinish>
       <ActualDuration>PT24H0M0S</ActualDuration>
+      <ActualWork>PT16H0M0S</ActualWork>
       <RemainingDuration>PT0H0M0S</RemainingDuration>
+      <RemainingWork>PT0H0M0S</RemainingWork>
       <ConstraintType>0</ConstraintType>
       <CalendarUID>1</CalendarUID>
       <IgnoreResourceCalendar>1</IgnoreResourceCalendar>
@@ -473,6 +507,8 @@
       <Finish>2024-02-03T12:48:00</Finish>
       <Duration>PT32H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Stop>2024-02-03T12:48:00</Stop>
+      <Resume>2024-02-03T12:48:00</Resume>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -506,6 +542,8 @@
       <Finish>2024-02-15T08:00:00</Finish>
       <Duration>PT80H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Stop>2024-02-15T08:00:00</Stop>
+      <Resume>2024-02-15T08:00:00</Resume>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -539,6 +577,9 @@
       <Finish>2024-02-11T03:12:00</Finish>
       <Duration>PT16H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Work>PT16H0M0S</Work>
+      <Stop>2024-02-11T03:12:00</Stop>
+      <Resume>2024-02-11T03:12:00</Resume>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -546,7 +587,9 @@
       <ActualStart>2024-02-08T08:00:00</ActualStart>
       <ActualFinish>2024-02-11T03:12:00</ActualFinish>
       <ActualDuration>PT16H0M0S</ActualDuration>
+      <ActualWork>PT16H0M0S</ActualWork>
       <RemainingDuration>PT0H0M0S</RemainingDuration>
+      <RemainingWork>PT0H0M0S</RemainingWork>
       <ConstraintType>2</ConstraintType>
       <CalendarUID>1</CalendarUID>
       <ConstraintDate>2024-02-08T08:00:00</ConstraintDate>
@@ -573,6 +616,9 @@
       <Finish>2024-02-12T03:12:00</Finish>
       <Duration>PT8H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Work>PT16H0M0S</Work>
+      <Stop>2024-02-12T03:12:00</Stop>
+      <Resume>2024-02-12T03:12:00</Resume>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -580,7 +626,9 @@
       <ActualStart>2024-02-09T08:00:00</ActualStart>
       <ActualFinish>2024-02-12T03:12:00</ActualFinish>
       <ActualDuration>PT8H0M0S</ActualDuration>
+      <ActualWork>PT16H0M0S</ActualWork>
       <RemainingDuration>PT0H0M0S</RemainingDuration>
+      <RemainingWork>PT0H0M0S</RemainingWork>
       <ConstraintType>0</ConstraintType>
       <CalendarUID>1</CalendarUID>
       <IgnoreResourceCalendar>1</IgnoreResourceCalendar>
@@ -606,6 +654,8 @@
       <Finish>2024-02-17T08:00:00</Finish>
       <Duration>PT40H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Stop>2024-02-17T08:00:00</Stop>
+      <Resume>2024-02-17T08:00:00</Resume>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -639,6 +689,9 @@
       <Finish>2024-02-17T12:48:00</Finish>
       <Duration>PT32H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Work>PT24H0M0S</Work>
+      <Stop>2024-02-17T12:48:00</Stop>
+      <Resume>2024-02-17T12:48:00</Resume>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -646,7 +699,9 @@
       <ActualStart>2024-02-13T08:00:00</ActualStart>
       <ActualFinish>2024-02-17T12:48:00</ActualFinish>
       <ActualDuration>PT32H0M0S</ActualDuration>
+      <ActualWork>PT24H0M0S</ActualWork>
       <RemainingDuration>PT0H0M0S</RemainingDuration>
+      <RemainingWork>PT0H0M0S</RemainingWork>
       <ConstraintType>0</ConstraintType>
       <CalendarUID>1</CalendarUID>
       <IgnoreResourceCalendar>1</IgnoreResourceCalendar>
@@ -672,6 +727,9 @@
       <Finish>2024-02-29T08:00:00</Finish>
       <Duration>PT80H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Work>PT80H0M0S</Work>
+      <Stop>2024-02-29T08:00:00</Stop>
+      <Resume>2024-02-29T08:00:00</Resume>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -679,7 +737,9 @@
       <ActualStart>2024-02-15T08:00:00</ActualStart>
       <ActualFinish>2024-02-29T08:00:00</ActualFinish>
       <ActualDuration>PT80H0M0S</ActualDuration>
+      <ActualWork>PT80H0M0S</ActualWork>
       <RemainingDuration>PT0H0M0S</RemainingDuration>
+      <RemainingWork>PT0H0M0S</RemainingWork>
       <ConstraintType>0</ConstraintType>
       <CalendarUID>1</CalendarUID>
       <IgnoreResourceCalendar>1</IgnoreResourceCalendar>
@@ -705,6 +765,8 @@
       <Finish>2024-03-07T08:00:00</Finish>
       <Duration>PT80H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Stop>2024-03-07T08:00:00</Stop>
+      <Resume>2024-03-07T08:00:00</Resume>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -738,6 +800,9 @@
       <Finish>2024-03-03T03:12:00</Finish>
       <Duration>PT16H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Work>PT16H0M0S</Work>
+      <Stop>2024-03-03T03:12:00</Stop>
+      <Resume>2024-03-03T03:12:00</Resume>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -745,7 +810,9 @@
       <ActualStart>2024-02-29T08:00:00</ActualStart>
       <ActualFinish>2024-03-03T03:12:00</ActualFinish>
       <ActualDuration>PT16H0M0S</ActualDuration>
+      <ActualWork>PT16H0M0S</ActualWork>
       <RemainingDuration>PT0H0M0S</RemainingDuration>
+      <RemainingWork>PT0H0M0S</RemainingWork>
       <ConstraintType>0</ConstraintType>
       <CalendarUID>1</CalendarUID>
       <IgnoreResourceCalendar>1</IgnoreResourceCalendar>
@@ -771,6 +838,9 @@
       <Finish>2024-03-08T08:00:00</Finish>
       <Duration>PT40H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Work>PT40H0M0S</Work>
+      <Stop>2024-03-08T08:00:00</Stop>
+      <Resume>2024-03-08T08:00:00</Resume>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -778,7 +848,9 @@
       <ActualStart>2024-03-01T08:00:00</ActualStart>
       <ActualFinish>2024-03-08T08:00:00</ActualFinish>
       <ActualDuration>PT40H0M0S</ActualDuration>
+      <ActualWork>PT40H0M0S</ActualWork>
       <RemainingDuration>PT0H0M0S</RemainingDuration>
+      <RemainingWork>PT0H0M0S</RemainingWork>
       <ConstraintType>0</ConstraintType>
       <CalendarUID>1</CalendarUID>
       <IgnoreResourceCalendar>1</IgnoreResourceCalendar>
@@ -812,6 +884,8 @@
       <Finish>2024-03-18T08:00:00</Finish>
       <Duration>PT80H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Stop>2024-03-18T08:00:00</Stop>
+      <Resume>2024-03-18T08:00:00</Resume>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -845,6 +919,9 @@
       <Finish>2024-03-25T08:00:00</Finish>
       <Duration>PT80H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Work>PT80H0M0S</Work>
+      <Stop>2024-03-25T08:00:00</Stop>
+      <Resume>2024-03-25T08:00:00</Resume>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -852,7 +929,9 @@
       <ActualStart>2024-03-11T08:00:00</ActualStart>
       <ActualFinish>2024-03-25T08:00:00</ActualFinish>
       <ActualDuration>PT80H0M0S</ActualDuration>
+      <ActualWork>PT80H0M0S</ActualWork>
       <RemainingDuration>PT0H0M0S</RemainingDuration>
+      <RemainingWork>PT0H0M0S</RemainingWork>
       <ConstraintType>0</ConstraintType>
       <CalendarUID>1</CalendarUID>
       <IgnoreResourceCalendar>1</IgnoreResourceCalendar>
@@ -878,6 +957,9 @@
       <Finish>2024-04-01T08:00:00</Finish>
       <Duration>PT80H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Work>PT80H0M0S</Work>
+      <Stop>2024-04-01T08:00:00</Stop>
+      <Resume>2024-04-01T08:00:00</Resume>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -885,7 +967,9 @@
       <ActualStart>2024-03-18T08:00:00</ActualStart>
       <ActualFinish>2024-04-01T08:00:00</ActualFinish>
       <ActualDuration>PT80H0M0S</ActualDuration>
+      <ActualWork>PT80H0M0S</ActualWork>
       <RemainingDuration>PT0H0M0S</RemainingDuration>
+      <RemainingWork>PT0H0M0S</RemainingWork>
       <ConstraintType>0</ConstraintType>
       <CalendarUID>1</CalendarUID>
       <IgnoreResourceCalendar>1</IgnoreResourceCalendar>
@@ -911,6 +995,8 @@
       <Finish>2024-04-05T12:48:00</Finish>
       <Duration>PT76H48M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Stop>2024-04-05T12:48:00</Stop>
+      <Resume>2024-04-05T12:48:00</Resume>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -944,6 +1030,8 @@
       <Finish>2024-06-08T08:00:00</Finish>
       <Duration>PT400H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Stop>2024-06-08T08:00:00</Stop>
+      <Resume>2024-06-08T08:00:00</Resume>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -977,6 +1065,9 @@
       <Finish>2024-05-15T12:48:00</Finish>
       <Duration>PT60H48M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Work>PT64H0M0S</Work>
+      <Stop>2024-05-15T12:48:00</Stop>
+      <Resume>2024-05-15T12:48:00</Resume>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -984,7 +1075,9 @@
       <ActualStart>2024-05-04T08:00:00</ActualStart>
       <ActualFinish>2024-05-15T12:48:00</ActualFinish>
       <ActualDuration>PT60H48M0S</ActualDuration>
+      <ActualWork>PT64H0M0S</ActualWork>
       <RemainingDuration>PT0H0M0S</RemainingDuration>
+      <RemainingWork>PT0H0M0S</RemainingWork>
       <ConstraintType>0</ConstraintType>
       <CalendarUID>1</CalendarUID>
       <IgnoreResourceCalendar>1</IgnoreResourceCalendar>
@@ -1010,6 +1103,8 @@
       <Finish>2024-05-16T08:00:00</Finish>
       <Duration>PT40H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Stop>2024-05-16T08:00:00</Stop>
+      <Resume>2024-05-16T08:00:00</Resume>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -1043,6 +1138,9 @@
       <Finish>2024-05-16T12:48:00</Finish>
       <Duration>PT28H48M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Work>PT24H0M0S</Work>
+      <Stop>2024-05-16T12:48:00</Stop>
+      <Resume>2024-05-16T12:48:00</Resume>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -1050,7 +1148,9 @@
       <ActualStart>2024-05-12T08:00:00</ActualStart>
       <ActualFinish>2024-05-16T12:48:00</ActualFinish>
       <ActualDuration>PT28H48M0S</ActualDuration>
+      <ActualWork>PT24H0M0S</ActualWork>
       <RemainingDuration>PT0H0M0S</RemainingDuration>
+      <RemainingWork>PT0H0M0S</RemainingWork>
       <ConstraintType>0</ConstraintType>
       <CalendarUID>1</CalendarUID>
       <IgnoreResourceCalendar>1</IgnoreResourceCalendar>
@@ -1076,6 +1176,9 @@
       <Finish>2024-06-04T08:00:00</Finish>
       <Duration>PT120H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Work>PT120H0M0S</Work>
+      <Stop>2024-06-04T08:00:00</Stop>
+      <Resume>2024-06-04T08:00:00</Resume>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -1083,7 +1186,9 @@
       <ActualStart>2024-05-14T08:00:00</ActualStart>
       <ActualFinish>2024-06-04T08:00:00</ActualFinish>
       <ActualDuration>PT120H0M0S</ActualDuration>
+      <ActualWork>PT120H0M0S</ActualWork>
       <RemainingDuration>PT0H0M0S</RemainingDuration>
+      <RemainingWork>PT0H0M0S</RemainingWork>
       <ConstraintType>0</ConstraintType>
       <CalendarUID>1</CalendarUID>
       <IgnoreResourceCalendar>1</IgnoreResourceCalendar>
@@ -1109,6 +1214,8 @@
       <Finish>2024-05-27T03:12:00</Finish>
       <Duration>PT8H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Stop>2024-05-27T03:12:00</Stop>
+      <Resume>2024-05-27T03:12:00</Resume>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -1142,6 +1249,9 @@
       <Finish>2024-06-08T08:00:00</Finish>
       <Duration>PT80H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Work>PT80H0M0S</Work>
+      <Stop>2024-06-08T08:00:00</Stop>
+      <Resume>2024-06-08T08:00:00</Resume>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -1149,7 +1259,9 @@
       <ActualStart>2024-05-25T08:00:00</ActualStart>
       <ActualFinish>2024-06-08T08:00:00</ActualFinish>
       <ActualDuration>PT80H0M0S</ActualDuration>
+      <ActualWork>PT80H0M0S</ActualWork>
       <RemainingDuration>PT0H0M0S</RemainingDuration>
+      <RemainingWork>PT0H0M0S</RemainingWork>
       <ConstraintType>0</ConstraintType>
       <CalendarUID>1</CalendarUID>
       <IgnoreResourceCalendar>1</IgnoreResourceCalendar>
@@ -1175,6 +1287,8 @@
       <Finish>2024-06-08T08:00:00</Finish>
       <Duration>PT40H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Stop>2024-06-08T08:00:00</Stop>
+      <Resume>2024-06-08T08:00:00</Resume>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -1206,7 +1320,7 @@
       <OutlineLevel>3</OutlineLevel>
       <Start>2024-06-04T08:00:00</Start>
       <Finish>2024-07-01T16:00:00</Finish>
-      <Duration>PT40H0M0S</Duration>
+      <Duration>PT160H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
       <Stop>2024-06-30T17:00:00</Stop>
       <Resume>2024-07-01T08:00:00</Resume>
@@ -1219,9 +1333,9 @@
       <LateFinish>2024-07-19T16:00:00</LateFinish>
       <FreeSlack>0</FreeSlack>
       <TotalSlack>67200</TotalSlack>
-      <PercentComplete>80</PercentComplete>
+      <PercentComplete>95</PercentComplete>
       <ActualStart>2024-06-04T08:00:00</ActualStart>
-      <ActualDuration>PT32H0M0S</ActualDuration>
+      <ActualDuration>PT152H0M0S</ActualDuration>
       <RemainingDuration>PT8H0M0S</RemainingDuration>
       <ConstraintType>0</ConstraintType>
       <CalendarUID>1</CalendarUID>
@@ -1248,6 +1362,9 @@
       <Finish>2024-06-10T03:12:00</Finish>
       <Duration>PT8H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Work>PT16H0M0S</Work>
+      <Stop>2024-06-10T03:12:00</Stop>
+      <Resume>2024-06-10T03:12:00</Resume>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -1255,7 +1372,9 @@
       <ActualStart>2024-06-07T08:00:00</ActualStart>
       <ActualFinish>2024-06-10T03:12:00</ActualFinish>
       <ActualDuration>PT8H0M0S</ActualDuration>
+      <ActualWork>PT16H0M0S</ActualWork>
       <RemainingDuration>PT0H0M0S</RemainingDuration>
+      <RemainingWork>PT0H0M0S</RemainingWork>
       <ConstraintType>2</ConstraintType>
       <CalendarUID>1</CalendarUID>
       <ConstraintDate>2024-06-07T08:00:00</ConstraintDate>
@@ -1280,8 +1399,9 @@
       <OutlineLevel>3</OutlineLevel>
       <Start>2024-06-08T08:00:00</Start>
       <Finish>2024-07-02T16:00:00</Finish>
-      <Duration>PT24H0M0S</Duration>
+      <Duration>PT134H24M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Work>PT24H0M0S</Work>
       <Stop>2024-06-30T17:00:00</Stop>
       <Resume>2024-07-01T08:00:00</Resume>
       <EffortDriven>0</EffortDriven>
@@ -1293,10 +1413,12 @@
       <LateFinish>2024-08-06T16:00:00</LateFinish>
       <FreeSlack>0</FreeSlack>
       <TotalSlack>120000</TotalSlack>
-      <PercentComplete>40</PercentComplete>
+      <PercentComplete>89</PercentComplete>
       <ActualStart>2024-06-08T08:00:00</ActualStart>
-      <ActualDuration>PT9H36M0S</ActualDuration>
+      <ActualDuration>PT120H0M0S</ActualDuration>
+      <ActualWork>PT9H36M0S</ActualWork>
       <RemainingDuration>PT14H24M0S</RemainingDuration>
+      <RemainingWork>PT14H24M0S</RemainingWork>
       <ConstraintType>0</ConstraintType>
       <CalendarUID>1</CalendarUID>
       <IgnoreResourceCalendar>1</IgnoreResourceCalendar>
@@ -1320,7 +1442,7 @@
       <OutlineLevel>3</OutlineLevel>
       <Start>2024-06-10T08:00:00</Start>
       <Finish>2024-07-08T16:00:00</Finish>
-      <Duration>PT64H0M0S</Duration>
+      <Duration>PT145H36M0S</Duration>
       <DurationFormat>7</DurationFormat>
       <Stop>2024-06-30T17:00:00</Stop>
       <Resume>2024-07-03T08:00:00</Resume>
@@ -1333,9 +1455,9 @@
       <LateFinish>2024-08-09T16:00:00</LateFinish>
       <FreeSlack>0</FreeSlack>
       <TotalSlack>115200</TotalSlack>
-      <PercentComplete>60</PercentComplete>
+      <PercentComplete>82</PercentComplete>
       <ActualStart>2024-06-10T08:00:00</ActualStart>
-      <ActualDuration>PT38H24M0S</ActualDuration>
+      <ActualDuration>PT120H0M0S</ActualDuration>
       <RemainingDuration>PT25H36M0S</RemainingDuration>
       <ConstraintType>0</ConstraintType>
       <CalendarUID>1</CalendarUID>
@@ -1360,8 +1482,9 @@
       <OutlineLevel>3</OutlineLevel>
       <Start>2024-06-15T08:00:00</Start>
       <Finish>2024-07-26T16:00:00</Finish>
-      <Duration>PT120H0M0S</Duration>
+      <Duration>PT188H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Work>PT120H0M0S</Work>
       <Stop>2024-06-30T17:00:00</Stop>
       <Resume>2024-07-09T08:00:00</Resume>
       <EffortDriven>0</EffortDriven>
@@ -1373,10 +1496,12 @@
       <LateFinish>2024-08-28T16:00:00</LateFinish>
       <FreeSlack>0</FreeSlack>
       <TotalSlack>110400</TotalSlack>
-      <PercentComplete>10</PercentComplete>
+      <PercentComplete>43</PercentComplete>
       <ActualStart>2024-06-15T08:00:00</ActualStart>
-      <ActualDuration>PT12H0M0S</ActualDuration>
+      <ActualDuration>PT80H0M0S</ActualDuration>
+      <ActualWork>PT12H0M0S</ActualWork>
       <RemainingDuration>PT108H0M0S</RemainingDuration>
+      <RemainingWork>PT108H0M0S</RemainingWork>
       <ConstraintType>0</ConstraintType>
       <CalendarUID>1</CalendarUID>
       <IgnoreResourceCalendar>1</IgnoreResourceCalendar>
@@ -1400,8 +1525,9 @@
       <OutlineLevel>3</OutlineLevel>
       <Start>2024-06-25T08:00:00</Start>
       <Finish>2024-07-31T16:00:00</Finish>
-      <Duration>PT40H0M0S</Duration>
+      <Duration>PT56H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Work>PT40H0M0S</Work>
       <Stop>2024-06-30T17:00:00</Stop>
       <Resume>2024-07-29T08:00:00</Resume>
       <EffortDriven>0</EffortDriven>
@@ -1413,10 +1539,12 @@
       <LateFinish>2024-09-02T16:00:00</LateFinish>
       <FreeSlack>0</FreeSlack>
       <TotalSlack>110400</TotalSlack>
-      <PercentComplete>40</PercentComplete>
+      <PercentComplete>57</PercentComplete>
       <ActualStart>2024-06-25T08:00:00</ActualStart>
-      <ActualDuration>PT16H0M0S</ActualDuration>
+      <ActualDuration>PT32H0M0S</ActualDuration>
+      <ActualWork>PT16H0M0S</ActualWork>
       <RemainingDuration>PT24H0M0S</RemainingDuration>
+      <RemainingWork>PT24H0M0S</RemainingWork>
       <ConstraintType>0</ConstraintType>
       <CalendarUID>1</CalendarUID>
       <IgnoreResourceCalendar>1</IgnoreResourceCalendar>
@@ -1440,7 +1568,7 @@
       <OutlineLevel>3</OutlineLevel>
       <Start>2024-06-28T08:00:00</Start>
       <Finish>2024-08-06T16:00:00</Finish>
-      <Duration>PT80H0M0S</Duration>
+      <Duration>PT40H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
       <Stop>2024-06-30T17:00:00</Stop>
       <Resume>2024-08-01T08:00:00</Resume>
@@ -1453,9 +1581,9 @@
       <LateFinish>2024-09-06T16:00:00</LateFinish>
       <FreeSlack>110400</FreeSlack>
       <TotalSlack>110400</TotalSlack>
-      <PercentComplete>60</PercentComplete>
+      <PercentComplete>20</PercentComplete>
       <ActualStart>2024-06-28T08:00:00</ActualStart>
-      <ActualDuration>PT48H0M0S</ActualDuration>
+      <ActualDuration>PT8H0M0S</ActualDuration>
       <RemainingDuration>PT32H0M0S</RemainingDuration>
       <ConstraintType>0</ConstraintType>
       <CalendarUID>1</CalendarUID>
@@ -1482,6 +1610,7 @@
       <Finish>2024-09-06T16:00:00</Finish>
       <Duration>PT400H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Work>PT400H0M0S</Work>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -1493,7 +1622,9 @@
       <TotalSlack>0</TotalSlack>
       <PercentComplete>0</PercentComplete>
       <ActualDuration>PT0H0M0S</ActualDuration>
+      <ActualWork>PT0H0M0S</ActualWork>
       <RemainingDuration>PT400H0M0S</RemainingDuration>
+      <RemainingWork>PT400H0M0S</RemainingWork>
       <ConstraintType>4</ConstraintType>
       <CalendarUID>1</CalendarUID>
       <ConstraintDate>2024-07-01T08:00:00</ConstraintDate>
@@ -1519,6 +1650,7 @@
       <Finish>2024-09-13T16:00:00</Finish>
       <Duration>PT40H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Work>PT40H0M0S</Work>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -1530,7 +1662,9 @@
       <TotalSlack>0</TotalSlack>
       <PercentComplete>0</PercentComplete>
       <ActualDuration>PT0H0M0S</ActualDuration>
+      <ActualWork>PT0H0M0S</ActualWork>
       <RemainingDuration>PT40H0M0S</RemainingDuration>
+      <RemainingWork>PT40H0M0S</RemainingWork>
       <ConstraintType>0</ConstraintType>
       <CalendarUID>1</CalendarUID>
       <IgnoreResourceCalendar>1</IgnoreResourceCalendar>
@@ -1591,6 +1725,7 @@
       <Finish>2024-10-08T16:00:00</Finish>
       <Duration>PT16H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Work>PT16H0M0S</Work>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -1602,7 +1737,9 @@
       <TotalSlack>0</TotalSlack>
       <PercentComplete>0</PercentComplete>
       <ActualDuration>PT0H0M0S</ActualDuration>
+      <ActualWork>PT0H0M0S</ActualWork>
       <RemainingDuration>PT16H0M0S</RemainingDuration>
+      <RemainingWork>PT16H0M0S</RemainingWork>
       <ConstraintType>0</ConstraintType>
       <CalendarUID>1</CalendarUID>
       <IgnoreResourceCalendar>1</IgnoreResourceCalendar>
@@ -1627,6 +1764,7 @@
       <Finish>2024-10-29T16:00:00</Finish>
       <Duration>PT120H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Work>PT120H0M0S</Work>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -1638,7 +1776,9 @@
       <TotalSlack>0</TotalSlack>
       <PercentComplete>0</PercentComplete>
       <ActualDuration>PT0H0M0S</ActualDuration>
+      <ActualWork>PT0H0M0S</ActualWork>
       <RemainingDuration>PT120H0M0S</RemainingDuration>
+      <RemainingWork>PT120H0M0S</RemainingWork>
       <ConstraintType>0</ConstraintType>
       <CalendarUID>1</CalendarUID>
       <IgnoreResourceCalendar>1</IgnoreResourceCalendar>
@@ -1736,6 +1876,7 @@
       <Finish>2024-11-11T16:00:00</Finish>
       <Duration>PT16H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Work>PT16H0M0S</Work>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -1747,7 +1888,9 @@
       <TotalSlack>0</TotalSlack>
       <PercentComplete>0</PercentComplete>
       <ActualDuration>PT0H0M0S</ActualDuration>
+      <ActualWork>PT0H0M0S</ActualWork>
       <RemainingDuration>PT16H0M0S</RemainingDuration>
+      <RemainingWork>PT16H0M0S</RemainingWork>
       <ConstraintType>0</ConstraintType>
       <CalendarUID>1</CalendarUID>
       <IgnoreResourceCalendar>1</IgnoreResourceCalendar>
@@ -1808,6 +1951,7 @@
       <Finish>2024-12-02T16:00:00</Finish>
       <Duration>PT80H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Work>PT80H0M0S</Work>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -1819,7 +1963,9 @@
       <TotalSlack>0</TotalSlack>
       <PercentComplete>0</PercentComplete>
       <ActualDuration>PT0H0M0S</ActualDuration>
+      <ActualWork>PT0H0M0S</ActualWork>
       <RemainingDuration>PT80H0M0S</RemainingDuration>
+      <RemainingWork>PT80H0M0S</RemainingWork>
       <ConstraintType>0</ConstraintType>
       <CalendarUID>1</CalendarUID>
       <IgnoreResourceCalendar>1</IgnoreResourceCalendar>
@@ -1844,6 +1990,7 @@
       <Finish>2024-12-12T16:00:00</Finish>
       <Duration>PT64H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Work>PT64H0M0S</Work>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -1855,7 +2002,9 @@
       <TotalSlack>0</TotalSlack>
       <PercentComplete>0</PercentComplete>
       <ActualDuration>PT0H0M0S</ActualDuration>
+      <ActualWork>PT0H0M0S</ActualWork>
       <RemainingDuration>PT64H0M0S</RemainingDuration>
+      <RemainingWork>PT64H0M0S</RemainingWork>
       <ConstraintType>0</ConstraintType>
       <CalendarUID>1</CalendarUID>
       <IgnoreResourceCalendar>1</IgnoreResourceCalendar>
@@ -1952,6 +2101,7 @@
       <Finish>2025-01-06T16:00:00</Finish>
       <Duration>PT24H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Work>PT24H0M0S</Work>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -1963,7 +2113,9 @@
       <TotalSlack>0</TotalSlack>
       <PercentComplete>0</PercentComplete>
       <ActualDuration>PT0H0M0S</ActualDuration>
+      <ActualWork>PT0H0M0S</ActualWork>
       <RemainingDuration>PT24H0M0S</RemainingDuration>
+      <RemainingWork>PT24H0M0S</RemainingWork>
       <ConstraintType>0</ConstraintType>
       <CalendarUID>1</CalendarUID>
       <IgnoreResourceCalendar>1</IgnoreResourceCalendar>
@@ -2024,6 +2176,7 @@
       <Finish>2025-03-19T16:00:00</Finish>
       <Duration>PT16H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Work>PT16H0M0S</Work>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -2035,7 +2188,9 @@
       <TotalSlack>0</TotalSlack>
       <PercentComplete>0</PercentComplete>
       <ActualDuration>PT0H0M0S</ActualDuration>
+      <ActualWork>PT0H0M0S</ActualWork>
       <RemainingDuration>PT16H0M0S</RemainingDuration>
+      <RemainingWork>PT16H0M0S</RemainingWork>
       <ConstraintType>0</ConstraintType>
       <CalendarUID>1</CalendarUID>
       <IgnoreResourceCalendar>1</IgnoreResourceCalendar>
@@ -2060,6 +2215,7 @@
       <Finish>2025-03-31T16:00:00</Finish>
       <Duration>PT64H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Work>PT64H0M0S</Work>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -2071,7 +2227,9 @@
       <TotalSlack>0</TotalSlack>
       <PercentComplete>0</PercentComplete>
       <ActualDuration>PT0H0M0S</ActualDuration>
+      <ActualWork>PT0H0M0S</ActualWork>
       <RemainingDuration>PT64H0M0S</RemainingDuration>
+      <RemainingWork>PT64H0M0S</RemainingWork>
       <ConstraintType>0</ConstraintType>
       <CalendarUID>1</CalendarUID>
       <IgnoreResourceCalendar>1</IgnoreResourceCalendar>
@@ -2132,6 +2290,7 @@
       <Finish>2025-04-17T16:00:00</Finish>
       <Duration>PT24H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Work>PT24H0M0S</Work>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -2143,7 +2302,9 @@
       <TotalSlack>0</TotalSlack>
       <PercentComplete>0</PercentComplete>
       <ActualDuration>PT0H0M0S</ActualDuration>
+      <ActualWork>PT0H0M0S</ActualWork>
       <RemainingDuration>PT24H0M0S</RemainingDuration>
+      <RemainingWork>PT24H0M0S</RemainingWork>
       <ConstraintType>0</ConstraintType>
       <CalendarUID>1</CalendarUID>
       <IgnoreResourceCalendar>1</IgnoreResourceCalendar>
@@ -2168,6 +2329,7 @@
       <Finish>2025-06-26T16:00:00</Finish>
       <Duration>PT400H0M0S</Duration>
       <DurationFormat>7</DurationFormat>
+      <Work>PT400H0M0S</Work>
       <EffortDriven>0</EffortDriven>
       <Milestone>0</Milestone>
       <Summary>0</Summary>
@@ -2179,7 +2341,9 @@
       <TotalSlack>0</TotalSlack>
       <PercentComplete>0</PercentComplete>
       <ActualDuration>PT0H0M0S</ActualDuration>
+      <ActualWork>PT0H0M0S</ActualWork>
       <RemainingDuration>PT400H0M0S</RemainingDuration>
+      <RemainingWork>PT400H0M0S</RemainingWork>
       <ConstraintType>0</ConstraintType>
       <CalendarUID>1</CalendarUID>
       <IgnoreResourceCalendar>1</IgnoreResourceCalendar>
@@ -2265,24 +2429,26 @@
       <ActualCost>480000</ActualCost>
       <ActualFinish>2024-01-16T12:48:00</ActualFinish>
       <ActualStart>2024-01-05T08:00:00</ActualStart>
-      <ActualWork>PT60H48M0S</ActualWork>
+      <ActualWork>PT64H0M0S</ActualWork>
       <Cost>480000</Cost>
       <Finish>2024-01-16T12:48:00</Finish>
       <RemainingCost>0</RemainingCost>
       <RemainingWork>PT0H0M0S</RemainingWork>
       <Start>2024-01-05T08:00:00</Start>
-      <Units>1.00</Units>
-      <Work>PT60H48M0S</Work>
-      <TimephasedData><Type>2</Type><UID>1</UID><Start>2024-01-05T08:00:00</Start><Finish>2024-01-06T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
+      <Stop>2024-01-16T12:48:00</Stop>
+      <Resume>2024-01-16T12:48:00</Resume>
+      <Units>1.0526</Units>
+      <Work>PT64H0M0S</Work>
+      <TimephasedData><Type>2</Type><UID>1</UID><Start>2024-01-05T08:00:00</Start><Finish>2024-01-06T08:00:00</Finish><Unit>1</Unit><Value>PT8H25M0S</Value></TimephasedData>
       <TimephasedData><Type>2</Type><UID>1</UID><Start>2024-01-06T08:00:00</Start><Finish>2024-01-08T08:00:00</Finish><Unit>1</Unit><Value>PT0H0M0S</Value></TimephasedData>
-      <TimephasedData><Type>2</Type><UID>1</UID><Start>2024-01-08T08:00:00</Start><Finish>2024-01-09T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
-      <TimephasedData><Type>2</Type><UID>1</UID><Start>2024-01-09T08:00:00</Start><Finish>2024-01-10T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
-      <TimephasedData><Type>2</Type><UID>1</UID><Start>2024-01-10T08:00:00</Start><Finish>2024-01-11T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
-      <TimephasedData><Type>2</Type><UID>1</UID><Start>2024-01-11T08:00:00</Start><Finish>2024-01-12T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
-      <TimephasedData><Type>2</Type><UID>1</UID><Start>2024-01-12T08:00:00</Start><Finish>2024-01-13T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>1</UID><Start>2024-01-08T08:00:00</Start><Finish>2024-01-09T08:00:00</Finish><Unit>1</Unit><Value>PT8H26M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>1</UID><Start>2024-01-09T08:00:00</Start><Finish>2024-01-10T08:00:00</Finish><Unit>1</Unit><Value>PT8H25M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>1</UID><Start>2024-01-10T08:00:00</Start><Finish>2024-01-11T08:00:00</Finish><Unit>1</Unit><Value>PT8H25M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>1</UID><Start>2024-01-11T08:00:00</Start><Finish>2024-01-12T08:00:00</Finish><Unit>1</Unit><Value>PT8H25M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>1</UID><Start>2024-01-12T08:00:00</Start><Finish>2024-01-13T08:00:00</Finish><Unit>1</Unit><Value>PT8H26M0S</Value></TimephasedData>
       <TimephasedData><Type>2</Type><UID>1</UID><Start>2024-01-13T08:00:00</Start><Finish>2024-01-15T08:00:00</Finish><Unit>1</Unit><Value>PT0H0M0S</Value></TimephasedData>
-      <TimephasedData><Type>2</Type><UID>1</UID><Start>2024-01-15T08:00:00</Start><Finish>2024-01-16T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
-      <TimephasedData><Type>2</Type><UID>1</UID><Start>2024-01-16T08:00:00</Start><Finish>2024-01-17T08:00:00</Finish><Unit>1</Unit><Value>PT4H48M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>1</UID><Start>2024-01-15T08:00:00</Start><Finish>2024-01-16T08:00:00</Finish><Unit>1</Unit><Value>PT8H25M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>1</UID><Start>2024-01-16T08:00:00</Start><Finish>2024-01-17T08:00:00</Finish><Unit>1</Unit><Value>PT5H3M0S</Value></TimephasedData>
     </Assignment>
     <Assignment>
       <UID>2</UID>
@@ -2298,7 +2464,9 @@
       <RemainingCost>0</RemainingCost>
       <RemainingWork>PT0H0M0S</RemainingWork>
       <Start>2024-01-10T08:00:00</Start>
-      <Units>16.00</Units>
+      <Stop>2024-01-13T03:12:00</Stop>
+      <Resume>2024-01-13T03:12:00</Resume>
+      <Units>16</Units>
       <Work>PT16H0M0S</Work>
       <TimephasedData><Type>2</Type><UID>2</UID><Start>2024-01-10T08:00:00</Start><Finish>2024-01-13T03:12:00</Finish><Unit>1</Unit><Value>PT16H0M0S</Value></TimephasedData>
     </Assignment>
@@ -2316,7 +2484,9 @@
       <RemainingCost>0</RemainingCost>
       <RemainingWork>PT0H0M0S</RemainingWork>
       <Start>2024-01-14T08:00:00</Start>
-      <Units>1.00</Units>
+      <Stop>2024-01-28T08:00:00</Stop>
+      <Resume>2024-01-28T08:00:00</Resume>
+      <Units>1</Units>
       <Work>PT80H0M0S</Work>
       <TimephasedData><Type>2</Type><UID>3</UID><Start>2024-01-15T08:00:00</Start><Finish>2024-01-16T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
       <TimephasedData><Type>2</Type><UID>3</UID><Start>2024-01-16T08:00:00</Start><Finish>2024-01-17T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
@@ -2344,7 +2514,9 @@
       <RemainingCost>0</RemainingCost>
       <RemainingWork>PT0H0M0S</RemainingWork>
       <Start>2024-01-21T08:00:00</Start>
-      <Units>16.00</Units>
+      <Stop>2024-01-24T03:12:00</Stop>
+      <Resume>2024-01-24T03:12:00</Resume>
+      <Units>16</Units>
       <Work>PT16H0M0S</Work>
       <TimephasedData><Type>2</Type><UID>4</UID><Start>2024-01-21T08:00:00</Start><Finish>2024-01-24T03:12:00</Finish><Unit>1</Unit><Value>PT16H0M0S</Value></TimephasedData>
     </Assignment>
@@ -2356,25 +2528,27 @@
       <ActualCost>352000</ActualCost>
       <ActualFinish>2024-02-02T12:48:00</ActualFinish>
       <ActualStart>2024-01-22T08:00:00</ActualStart>
-      <ActualWork>PT76H48M0S</ActualWork>
+      <ActualWork>PT64H0M0S</ActualWork>
       <Cost>352000</Cost>
       <Finish>2024-02-02T12:48:00</Finish>
       <RemainingCost>0</RemainingCost>
       <RemainingWork>PT0H0M0S</RemainingWork>
       <Start>2024-01-22T08:00:00</Start>
-      <Units>1.00</Units>
-      <Work>PT76H48M0S</Work>
-      <TimephasedData><Type>2</Type><UID>5</UID><Start>2024-01-22T08:00:00</Start><Finish>2024-01-23T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
-      <TimephasedData><Type>2</Type><UID>5</UID><Start>2024-01-23T08:00:00</Start><Finish>2024-01-24T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
-      <TimephasedData><Type>2</Type><UID>5</UID><Start>2024-01-24T08:00:00</Start><Finish>2024-01-25T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
-      <TimephasedData><Type>2</Type><UID>5</UID><Start>2024-01-25T08:00:00</Start><Finish>2024-01-26T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
-      <TimephasedData><Type>2</Type><UID>5</UID><Start>2024-01-26T08:00:00</Start><Finish>2024-01-27T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
+      <Stop>2024-02-02T12:48:00</Stop>
+      <Resume>2024-02-02T12:48:00</Resume>
+      <Units>0.8333</Units>
+      <Work>PT64H0M0S</Work>
+      <TimephasedData><Type>2</Type><UID>5</UID><Start>2024-01-22T08:00:00</Start><Finish>2024-01-23T08:00:00</Finish><Unit>1</Unit><Value>PT6H40M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>5</UID><Start>2024-01-23T08:00:00</Start><Finish>2024-01-24T08:00:00</Finish><Unit>1</Unit><Value>PT6H40M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>5</UID><Start>2024-01-24T08:00:00</Start><Finish>2024-01-25T08:00:00</Finish><Unit>1</Unit><Value>PT6H40M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>5</UID><Start>2024-01-25T08:00:00</Start><Finish>2024-01-26T08:00:00</Finish><Unit>1</Unit><Value>PT6H40M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>5</UID><Start>2024-01-26T08:00:00</Start><Finish>2024-01-27T08:00:00</Finish><Unit>1</Unit><Value>PT6H40M0S</Value></TimephasedData>
       <TimephasedData><Type>2</Type><UID>5</UID><Start>2024-01-27T08:00:00</Start><Finish>2024-01-29T08:00:00</Finish><Unit>1</Unit><Value>PT0H0M0S</Value></TimephasedData>
-      <TimephasedData><Type>2</Type><UID>5</UID><Start>2024-01-29T08:00:00</Start><Finish>2024-01-30T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
-      <TimephasedData><Type>2</Type><UID>5</UID><Start>2024-01-30T08:00:00</Start><Finish>2024-01-31T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
-      <TimephasedData><Type>2</Type><UID>5</UID><Start>2024-01-31T08:00:00</Start><Finish>2024-02-01T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
-      <TimephasedData><Type>2</Type><UID>5</UID><Start>2024-02-01T08:00:00</Start><Finish>2024-02-02T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
-      <TimephasedData><Type>2</Type><UID>5</UID><Start>2024-02-02T08:00:00</Start><Finish>2024-02-03T08:00:00</Finish><Unit>1</Unit><Value>PT4H48M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>5</UID><Start>2024-01-29T08:00:00</Start><Finish>2024-01-30T08:00:00</Finish><Unit>1</Unit><Value>PT6H40M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>5</UID><Start>2024-01-30T08:00:00</Start><Finish>2024-01-31T08:00:00</Finish><Unit>1</Unit><Value>PT6H40M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>5</UID><Start>2024-01-31T08:00:00</Start><Finish>2024-02-01T08:00:00</Finish><Unit>1</Unit><Value>PT6H40M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>5</UID><Start>2024-02-01T08:00:00</Start><Finish>2024-02-02T08:00:00</Finish><Unit>1</Unit><Value>PT6H40M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>5</UID><Start>2024-02-02T08:00:00</Start><Finish>2024-02-03T08:00:00</Finish><Unit>1</Unit><Value>PT4H0M0S</Value></TimephasedData>
     </Assignment>
     <Assignment>
       <UID>6</UID>
@@ -2384,15 +2558,17 @@
       <ActualCost>120000</ActualCost>
       <ActualFinish>2024-01-30T03:12:00</ActualFinish>
       <ActualStart>2024-01-27T08:00:00</ActualStart>
-      <ActualWork>PT8H0M0S</ActualWork>
+      <ActualWork>PT16H0M0S</ActualWork>
       <Cost>120000</Cost>
       <Finish>2024-01-30T03:12:00</Finish>
       <RemainingCost>0</RemainingCost>
       <RemainingWork>PT0H0M0S</RemainingWork>
       <Start>2024-01-27T08:00:00</Start>
-      <Units>1.00</Units>
-      <Work>PT8H0M0S</Work>
-      <TimephasedData><Type>2</Type><UID>6</UID><Start>2024-01-29T08:00:00</Start><Finish>2024-01-30T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
+      <Stop>2024-01-30T03:12:00</Stop>
+      <Resume>2024-01-30T03:12:00</Resume>
+      <Units>2</Units>
+      <Work>PT16H0M0S</Work>
+      <TimephasedData><Type>2</Type><UID>6</UID><Start>2024-01-29T08:00:00</Start><Finish>2024-01-30T08:00:00</Finish><Unit>1</Unit><Value>PT16H0M0S</Value></TimephasedData>
     </Assignment>
     <Assignment>
       <UID>7</UID>
@@ -2408,7 +2584,9 @@
       <RemainingCost>0</RemainingCost>
       <RemainingWork>PT0H0M0S</RemainingWork>
       <Start>2024-01-28T08:00:00</Start>
-      <Units>16.00</Units>
+      <Stop>2024-01-31T03:12:00</Stop>
+      <Resume>2024-01-31T03:12:00</Resume>
+      <Units>16</Units>
       <Work>PT16H0M0S</Work>
       <TimephasedData><Type>2</Type><UID>7</UID><Start>2024-01-28T08:00:00</Start><Finish>2024-01-31T03:12:00</Finish><Unit>1</Unit><Value>PT16H0M0S</Value></TimephasedData>
     </Assignment>
@@ -2420,17 +2598,19 @@
       <ActualCost>88000</ActualCost>
       <ActualFinish>2024-02-01T03:12:00</ActualFinish>
       <ActualStart>2024-01-29T08:00:00</ActualStart>
-      <ActualWork>PT24H0M0S</ActualWork>
+      <ActualWork>PT16H0M0S</ActualWork>
       <Cost>88000</Cost>
       <Finish>2024-02-01T03:12:00</Finish>
       <RemainingCost>0</RemainingCost>
       <RemainingWork>PT0H0M0S</RemainingWork>
       <Start>2024-01-29T08:00:00</Start>
-      <Units>1.00</Units>
-      <Work>PT24H0M0S</Work>
-      <TimephasedData><Type>2</Type><UID>8</UID><Start>2024-01-29T08:00:00</Start><Finish>2024-01-30T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
-      <TimephasedData><Type>2</Type><UID>8</UID><Start>2024-01-30T08:00:00</Start><Finish>2024-01-31T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
-      <TimephasedData><Type>2</Type><UID>8</UID><Start>2024-01-31T08:00:00</Start><Finish>2024-02-01T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
+      <Stop>2024-02-01T03:12:00</Stop>
+      <Resume>2024-02-01T03:12:00</Resume>
+      <Units>0.6667</Units>
+      <Work>PT16H0M0S</Work>
+      <TimephasedData><Type>2</Type><UID>8</UID><Start>2024-01-29T08:00:00</Start><Finish>2024-01-30T08:00:00</Finish><Unit>1</Unit><Value>PT5H20M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>8</UID><Start>2024-01-30T08:00:00</Start><Finish>2024-01-31T08:00:00</Finish><Unit>1</Unit><Value>PT5H20M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>8</UID><Start>2024-01-31T08:00:00</Start><Finish>2024-02-01T08:00:00</Finish><Unit>1</Unit><Value>PT5H20M0S</Value></TimephasedData>
     </Assignment>
     <Assignment>
       <UID>9</UID>
@@ -2446,7 +2626,9 @@
       <RemainingCost>0</RemainingCost>
       <RemainingWork>PT0H0M0S</RemainingWork>
       <Start>2024-02-01T08:00:00</Start>
-      <Units>80.00</Units>
+      <Stop>2024-02-15T08:00:00</Stop>
+      <Resume>2024-02-15T08:00:00</Resume>
+      <Units>80</Units>
       <Work>PT80H0M0S</Work>
       <TimephasedData><Type>2</Type><UID>9</UID><Start>2024-02-01T08:00:00</Start><Finish>2024-02-15T08:00:00</Finish><Unit>1</Unit><Value>PT80H0M0S</Value></TimephasedData>
     </Assignment>
@@ -2464,7 +2646,9 @@
       <RemainingCost>0</RemainingCost>
       <RemainingWork>PT0H0M0S</RemainingWork>
       <Start>2024-02-08T08:00:00</Start>
-      <Units>1.00</Units>
+      <Stop>2024-02-11T03:12:00</Stop>
+      <Resume>2024-02-11T03:12:00</Resume>
+      <Units>1</Units>
       <Work>PT16H0M0S</Work>
       <TimephasedData><Type>2</Type><UID>10</UID><Start>2024-02-08T08:00:00</Start><Finish>2024-02-09T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
       <TimephasedData><Type>2</Type><UID>10</UID><Start>2024-02-09T08:00:00</Start><Finish>2024-02-10T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
@@ -2477,15 +2661,17 @@
       <ActualCost>120000</ActualCost>
       <ActualFinish>2024-02-12T03:12:00</ActualFinish>
       <ActualStart>2024-02-09T08:00:00</ActualStart>
-      <ActualWork>PT8H0M0S</ActualWork>
+      <ActualWork>PT16H0M0S</ActualWork>
       <Cost>120000</Cost>
       <Finish>2024-02-12T03:12:00</Finish>
       <RemainingCost>0</RemainingCost>
       <RemainingWork>PT0H0M0S</RemainingWork>
       <Start>2024-02-09T08:00:00</Start>
-      <Units>1.00</Units>
-      <Work>PT8H0M0S</Work>
-      <TimephasedData><Type>2</Type><UID>11</UID><Start>2024-02-09T08:00:00</Start><Finish>2024-02-10T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
+      <Stop>2024-02-12T03:12:00</Stop>
+      <Resume>2024-02-12T03:12:00</Resume>
+      <Units>2</Units>
+      <Work>PT16H0M0S</Work>
+      <TimephasedData><Type>2</Type><UID>11</UID><Start>2024-02-09T08:00:00</Start><Finish>2024-02-10T08:00:00</Finish><Unit>1</Unit><Value>PT16H0M0S</Value></TimephasedData>
     </Assignment>
     <Assignment>
       <UID>12</UID>
@@ -2501,7 +2687,9 @@
       <RemainingCost>0</RemainingCost>
       <RemainingWork>PT0H0M0S</RemainingWork>
       <Start>2024-02-10T08:00:00</Start>
-      <Units>40.00</Units>
+      <Stop>2024-02-17T08:00:00</Stop>
+      <Resume>2024-02-17T08:00:00</Resume>
+      <Units>40</Units>
       <Work>PT40H0M0S</Work>
       <TimephasedData><Type>2</Type><UID>12</UID><Start>2024-02-10T08:00:00</Start><Finish>2024-02-17T08:00:00</Finish><Unit>1</Unit><Value>PT40H0M0S</Value></TimephasedData>
     </Assignment>
@@ -2513,18 +2701,20 @@
       <ActualCost>132000</ActualCost>
       <ActualFinish>2024-02-17T12:48:00</ActualFinish>
       <ActualStart>2024-02-13T08:00:00</ActualStart>
-      <ActualWork>PT32H0M0S</ActualWork>
+      <ActualWork>PT24H0M0S</ActualWork>
       <Cost>132000</Cost>
       <Finish>2024-02-17T12:48:00</Finish>
       <RemainingCost>0</RemainingCost>
       <RemainingWork>PT0H0M0S</RemainingWork>
       <Start>2024-02-13T08:00:00</Start>
-      <Units>1.00</Units>
-      <Work>PT32H0M0S</Work>
-      <TimephasedData><Type>2</Type><UID>13</UID><Start>2024-02-13T08:00:00</Start><Finish>2024-02-14T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
-      <TimephasedData><Type>2</Type><UID>13</UID><Start>2024-02-14T08:00:00</Start><Finish>2024-02-15T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
-      <TimephasedData><Type>2</Type><UID>13</UID><Start>2024-02-15T08:00:00</Start><Finish>2024-02-16T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
-      <TimephasedData><Type>2</Type><UID>13</UID><Start>2024-02-16T08:00:00</Start><Finish>2024-02-17T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
+      <Stop>2024-02-17T12:48:00</Stop>
+      <Resume>2024-02-17T12:48:00</Resume>
+      <Units>0.75</Units>
+      <Work>PT24H0M0S</Work>
+      <TimephasedData><Type>2</Type><UID>13</UID><Start>2024-02-13T08:00:00</Start><Finish>2024-02-14T08:00:00</Finish><Unit>1</Unit><Value>PT6H0M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>13</UID><Start>2024-02-14T08:00:00</Start><Finish>2024-02-15T08:00:00</Finish><Unit>1</Unit><Value>PT6H0M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>13</UID><Start>2024-02-15T08:00:00</Start><Finish>2024-02-16T08:00:00</Finish><Unit>1</Unit><Value>PT6H0M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>13</UID><Start>2024-02-16T08:00:00</Start><Finish>2024-02-17T08:00:00</Finish><Unit>1</Unit><Value>PT6H0M0S</Value></TimephasedData>
     </Assignment>
     <Assignment>
       <UID>14</UID>
@@ -2540,7 +2730,9 @@
       <RemainingCost>0</RemainingCost>
       <RemainingWork>PT0H0M0S</RemainingWork>
       <Start>2024-02-15T08:00:00</Start>
-      <Units>1.00</Units>
+      <Stop>2024-02-29T08:00:00</Stop>
+      <Resume>2024-02-29T08:00:00</Resume>
+      <Units>1</Units>
       <Work>PT80H0M0S</Work>
       <TimephasedData><Type>2</Type><UID>14</UID><Start>2024-02-15T08:00:00</Start><Finish>2024-02-16T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
       <TimephasedData><Type>2</Type><UID>14</UID><Start>2024-02-16T08:00:00</Start><Finish>2024-02-17T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
@@ -2569,7 +2761,9 @@
       <RemainingCost>0</RemainingCost>
       <RemainingWork>PT0H0M0S</RemainingWork>
       <Start>2024-02-29T08:00:00</Start>
-      <Units>1.00</Units>
+      <Stop>2024-03-03T03:12:00</Stop>
+      <Resume>2024-03-03T03:12:00</Resume>
+      <Units>1</Units>
       <Work>PT16H0M0S</Work>
       <TimephasedData><Type>2</Type><UID>15</UID><Start>2024-02-29T08:00:00</Start><Finish>2024-03-01T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
       <TimephasedData><Type>2</Type><UID>15</UID><Start>2024-03-01T08:00:00</Start><Finish>2024-03-02T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
@@ -2588,7 +2782,9 @@
       <RemainingCost>0</RemainingCost>
       <RemainingWork>PT0H0M0S</RemainingWork>
       <Start>2024-03-01T08:00:00</Start>
-      <Units>1.00</Units>
+      <Stop>2024-03-08T08:00:00</Stop>
+      <Resume>2024-03-08T08:00:00</Resume>
+      <Units>1</Units>
       <Work>PT40H0M0S</Work>
       <TimephasedData><Type>2</Type><UID>16</UID><Start>2024-03-01T08:00:00</Start><Finish>2024-03-02T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
       <TimephasedData><Type>2</Type><UID>16</UID><Start>2024-03-02T08:00:00</Start><Finish>2024-03-04T08:00:00</Finish><Unit>1</Unit><Value>PT0H0M0S</Value></TimephasedData>
@@ -2611,7 +2807,9 @@
       <RemainingCost>0</RemainingCost>
       <RemainingWork>PT0H0M0S</RemainingWork>
       <Start>2024-03-04T08:00:00</Start>
-      <Units>80.00</Units>
+      <Stop>2024-03-18T08:00:00</Stop>
+      <Resume>2024-03-18T08:00:00</Resume>
+      <Units>80</Units>
       <Work>PT80H0M0S</Work>
       <TimephasedData><Type>2</Type><UID>17</UID><Start>2024-03-04T08:00:00</Start><Finish>2024-03-18T08:00:00</Finish><Unit>1</Unit><Value>PT80H0M0S</Value></TimephasedData>
     </Assignment>
@@ -2629,7 +2827,9 @@
       <RemainingCost>0</RemainingCost>
       <RemainingWork>PT0H0M0S</RemainingWork>
       <Start>2024-03-11T08:00:00</Start>
-      <Units>1.00</Units>
+      <Stop>2024-03-25T08:00:00</Stop>
+      <Resume>2024-03-25T08:00:00</Resume>
+      <Units>1</Units>
       <Work>PT80H0M0S</Work>
       <TimephasedData><Type>2</Type><UID>18</UID><Start>2024-03-11T08:00:00</Start><Finish>2024-03-12T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
       <TimephasedData><Type>2</Type><UID>18</UID><Start>2024-03-12T08:00:00</Start><Finish>2024-03-13T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
@@ -2657,7 +2857,9 @@
       <RemainingCost>0</RemainingCost>
       <RemainingWork>PT0H0M0S</RemainingWork>
       <Start>2024-03-18T08:00:00</Start>
-      <Units>1.00</Units>
+      <Stop>2024-04-01T08:00:00</Stop>
+      <Resume>2024-04-01T08:00:00</Resume>
+      <Units>1</Units>
       <Work>PT80H0M0S</Work>
       <TimephasedData><Type>2</Type><UID>19</UID><Start>2024-03-18T08:00:00</Start><Finish>2024-03-19T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
       <TimephasedData><Type>2</Type><UID>19</UID><Start>2024-03-19T08:00:00</Start><Finish>2024-03-20T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
@@ -2685,7 +2887,9 @@
       <RemainingCost>0</RemainingCost>
       <RemainingWork>PT0H0M0S</RemainingWork>
       <Start>2024-03-25T08:00:00</Start>
-      <Units>64.00</Units>
+      <Stop>2024-04-05T12:48:00</Stop>
+      <Resume>2024-04-05T12:48:00</Resume>
+      <Units>64</Units>
       <Work>PT64H0M0S</Work>
       <TimephasedData><Type>2</Type><UID>20</UID><Start>2024-03-25T08:00:00</Start><Finish>2024-04-05T12:48:00</Finish><Unit>1</Unit><Value>PT64H0M0S</Value></TimephasedData>
     </Assignment>
@@ -2697,23 +2901,25 @@
       <ActualCost>480000</ActualCost>
       <ActualFinish>2024-05-15T12:48:00</ActualFinish>
       <ActualStart>2024-05-04T08:00:00</ActualStart>
-      <ActualWork>PT60H48M0S</ActualWork>
+      <ActualWork>PT64H0M0S</ActualWork>
       <Cost>480000</Cost>
       <Finish>2024-05-15T12:48:00</Finish>
       <RemainingCost>0</RemainingCost>
       <RemainingWork>PT0H0M0S</RemainingWork>
       <Start>2024-05-04T08:00:00</Start>
-      <Units>1.00</Units>
-      <Work>PT60H48M0S</Work>
-      <TimephasedData><Type>2</Type><UID>21</UID><Start>2024-05-06T08:00:00</Start><Finish>2024-05-07T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
-      <TimephasedData><Type>2</Type><UID>21</UID><Start>2024-05-07T08:00:00</Start><Finish>2024-05-08T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
-      <TimephasedData><Type>2</Type><UID>21</UID><Start>2024-05-08T08:00:00</Start><Finish>2024-05-09T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
-      <TimephasedData><Type>2</Type><UID>21</UID><Start>2024-05-09T08:00:00</Start><Finish>2024-05-10T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
-      <TimephasedData><Type>2</Type><UID>21</UID><Start>2024-05-10T08:00:00</Start><Finish>2024-05-11T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
+      <Stop>2024-05-15T12:48:00</Stop>
+      <Resume>2024-05-15T12:48:00</Resume>
+      <Units>1.0526</Units>
+      <Work>PT64H0M0S</Work>
+      <TimephasedData><Type>2</Type><UID>21</UID><Start>2024-05-06T08:00:00</Start><Finish>2024-05-07T08:00:00</Finish><Unit>1</Unit><Value>PT8H25M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>21</UID><Start>2024-05-07T08:00:00</Start><Finish>2024-05-08T08:00:00</Finish><Unit>1</Unit><Value>PT8H26M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>21</UID><Start>2024-05-08T08:00:00</Start><Finish>2024-05-09T08:00:00</Finish><Unit>1</Unit><Value>PT8H25M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>21</UID><Start>2024-05-09T08:00:00</Start><Finish>2024-05-10T08:00:00</Finish><Unit>1</Unit><Value>PT8H25M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>21</UID><Start>2024-05-10T08:00:00</Start><Finish>2024-05-11T08:00:00</Finish><Unit>1</Unit><Value>PT8H25M0S</Value></TimephasedData>
       <TimephasedData><Type>2</Type><UID>21</UID><Start>2024-05-11T08:00:00</Start><Finish>2024-05-13T08:00:00</Finish><Unit>1</Unit><Value>PT0H0M0S</Value></TimephasedData>
-      <TimephasedData><Type>2</Type><UID>21</UID><Start>2024-05-13T08:00:00</Start><Finish>2024-05-14T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
-      <TimephasedData><Type>2</Type><UID>21</UID><Start>2024-05-14T08:00:00</Start><Finish>2024-05-15T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
-      <TimephasedData><Type>2</Type><UID>21</UID><Start>2024-05-15T08:00:00</Start><Finish>2024-05-16T08:00:00</Finish><Unit>1</Unit><Value>PT4H48M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>21</UID><Start>2024-05-13T08:00:00</Start><Finish>2024-05-14T08:00:00</Finish><Unit>1</Unit><Value>PT8H26M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>21</UID><Start>2024-05-14T08:00:00</Start><Finish>2024-05-15T08:00:00</Finish><Unit>1</Unit><Value>PT8H25M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>21</UID><Start>2024-05-15T08:00:00</Start><Finish>2024-05-16T08:00:00</Finish><Unit>1</Unit><Value>PT5H3M0S</Value></TimephasedData>
     </Assignment>
     <Assignment>
       <UID>22</UID>
@@ -2729,7 +2935,9 @@
       <RemainingCost>0</RemainingCost>
       <RemainingWork>PT0H0M0S</RemainingWork>
       <Start>2024-05-09T08:00:00</Start>
-      <Units>40.00</Units>
+      <Stop>2024-05-16T08:00:00</Stop>
+      <Resume>2024-05-16T08:00:00</Resume>
+      <Units>40</Units>
       <Work>PT40H0M0S</Work>
       <TimephasedData><Type>2</Type><UID>22</UID><Start>2024-05-09T08:00:00</Start><Finish>2024-05-16T08:00:00</Finish><Unit>1</Unit><Value>PT40H0M0S</Value></TimephasedData>
     </Assignment>
@@ -2741,18 +2949,20 @@
       <ActualCost>132000</ActualCost>
       <ActualFinish>2024-05-16T12:48:00</ActualFinish>
       <ActualStart>2024-05-12T08:00:00</ActualStart>
-      <ActualWork>PT28H48M0S</ActualWork>
+      <ActualWork>PT24H0M0S</ActualWork>
       <Cost>132000</Cost>
       <Finish>2024-05-16T12:48:00</Finish>
       <RemainingCost>0</RemainingCost>
       <RemainingWork>PT0H0M0S</RemainingWork>
       <Start>2024-05-12T08:00:00</Start>
-      <Units>1.00</Units>
-      <Work>PT28H48M0S</Work>
-      <TimephasedData><Type>2</Type><UID>23</UID><Start>2024-05-13T08:00:00</Start><Finish>2024-05-14T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
-      <TimephasedData><Type>2</Type><UID>23</UID><Start>2024-05-14T08:00:00</Start><Finish>2024-05-15T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
-      <TimephasedData><Type>2</Type><UID>23</UID><Start>2024-05-15T08:00:00</Start><Finish>2024-05-16T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
-      <TimephasedData><Type>2</Type><UID>23</UID><Start>2024-05-16T08:00:00</Start><Finish>2024-05-17T08:00:00</Finish><Unit>1</Unit><Value>PT4H48M0S</Value></TimephasedData>
+      <Stop>2024-05-16T12:48:00</Stop>
+      <Resume>2024-05-16T12:48:00</Resume>
+      <Units>0.8333</Units>
+      <Work>PT24H0M0S</Work>
+      <TimephasedData><Type>2</Type><UID>23</UID><Start>2024-05-13T08:00:00</Start><Finish>2024-05-14T08:00:00</Finish><Unit>1</Unit><Value>PT6H40M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>23</UID><Start>2024-05-14T08:00:00</Start><Finish>2024-05-15T08:00:00</Finish><Unit>1</Unit><Value>PT6H40M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>23</UID><Start>2024-05-15T08:00:00</Start><Finish>2024-05-16T08:00:00</Finish><Unit>1</Unit><Value>PT6H40M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>23</UID><Start>2024-05-16T08:00:00</Start><Finish>2024-05-17T08:00:00</Finish><Unit>1</Unit><Value>PT4H0M0S</Value></TimephasedData>
     </Assignment>
     <Assignment>
       <UID>24</UID>
@@ -2768,7 +2978,9 @@
       <RemainingCost>0</RemainingCost>
       <RemainingWork>PT0H0M0S</RemainingWork>
       <Start>2024-05-14T08:00:00</Start>
-      <Units>1.00</Units>
+      <Stop>2024-06-04T08:00:00</Stop>
+      <Resume>2024-06-04T08:00:00</Resume>
+      <Units>1</Units>
       <Work>PT120H0M0S</Work>
       <TimephasedData><Type>2</Type><UID>24</UID><Start>2024-05-14T08:00:00</Start><Finish>2024-05-15T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
       <TimephasedData><Type>2</Type><UID>24</UID><Start>2024-05-15T08:00:00</Start><Finish>2024-05-16T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
@@ -2803,7 +3015,9 @@
       <RemainingCost>0</RemainingCost>
       <RemainingWork>PT0H0M0S</RemainingWork>
       <Start>2024-05-24T08:00:00</Start>
-      <Units>16.00</Units>
+      <Stop>2024-05-27T03:12:00</Stop>
+      <Resume>2024-05-27T03:12:00</Resume>
+      <Units>16</Units>
       <Work>PT16H0M0S</Work>
       <TimephasedData><Type>2</Type><UID>25</UID><Start>2024-05-24T08:00:00</Start><Finish>2024-05-27T03:12:00</Finish><Unit>1</Unit><Value>PT16H0M0S</Value></TimephasedData>
     </Assignment>
@@ -2821,7 +3035,9 @@
       <RemainingCost>0</RemainingCost>
       <RemainingWork>PT0H0M0S</RemainingWork>
       <Start>2024-05-25T08:00:00</Start>
-      <Units>1.00</Units>
+      <Stop>2024-06-08T08:00:00</Stop>
+      <Resume>2024-06-08T08:00:00</Resume>
+      <Units>1</Units>
       <Work>PT80H0M0S</Work>
       <TimephasedData><Type>2</Type><UID>26</UID><Start>2024-05-27T08:00:00</Start><Finish>2024-05-28T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
       <TimephasedData><Type>2</Type><UID>26</UID><Start>2024-05-28T08:00:00</Start><Finish>2024-05-29T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
@@ -2848,7 +3064,9 @@
       <RemainingCost>76000</RemainingCost>
       <RemainingWork>PT8H0M0S</RemainingWork>
       <Start>2024-06-04T08:00:00</Start>
-      <Units>40.00</Units>
+      <Stop>2024-06-30T17:00:00</Stop>
+      <Resume>2024-07-01T08:00:00</Resume>
+      <Units>40</Units>
       <Work>PT40H0M0S</Work>
       <TimephasedData><Type>2</Type><UID>27</UID><Start>2024-06-04T08:00:00</Start><Finish>2024-06-30T17:00:00</Finish><Unit>1</Unit><Value>PT32H0M0S</Value></TimephasedData>
       <TimephasedData><Type>1</Type><UID>27</UID><Start>2024-07-01T08:00:00</Start><Finish>2024-07-01T16:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
@@ -2861,15 +3079,17 @@
       <ActualCost>88000</ActualCost>
       <ActualFinish>2024-06-10T03:12:00</ActualFinish>
       <ActualStart>2024-06-07T08:00:00</ActualStart>
-      <ActualWork>PT8H0M0S</ActualWork>
+      <ActualWork>PT16H0M0S</ActualWork>
       <Cost>88000</Cost>
       <Finish>2024-06-10T03:12:00</Finish>
       <RemainingCost>0</RemainingCost>
       <RemainingWork>PT0H0M0S</RemainingWork>
       <Start>2024-06-07T08:00:00</Start>
-      <Units>1.00</Units>
-      <Work>PT8H0M0S</Work>
-      <TimephasedData><Type>2</Type><UID>28</UID><Start>2024-06-07T08:00:00</Start><Finish>2024-06-08T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
+      <Stop>2024-06-10T03:12:00</Stop>
+      <Resume>2024-06-10T03:12:00</Resume>
+      <Units>2</Units>
+      <Work>PT16H0M0S</Work>
+      <TimephasedData><Type>2</Type><UID>28</UID><Start>2024-06-07T08:00:00</Start><Finish>2024-06-08T08:00:00</Finish><Unit>1</Unit><Value>PT16H0M0S</Value></TimephasedData>
     </Assignment>
     <Assignment>
       <UID>29</UID>
@@ -2884,10 +3104,28 @@
       <RemainingCost>108000</RemainingCost>
       <RemainingWork>PT14H24M0S</RemainingWork>
       <Start>2024-06-08T08:00:00</Start>
-      <Units>1.00</Units>
+      <Stop>2024-06-30T17:00:00</Stop>
+      <Resume>2024-07-01T08:00:00</Resume>
+      <Units>0.1786</Units>
       <Work>PT24H0M0S</Work>
-      <TimephasedData><Type>2</Type><UID>29</UID><Start>2024-06-10T08:00:00</Start><Finish>2024-06-11T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
-      <TimephasedData><Type>2</Type><UID>29</UID><Start>2024-06-11T08:00:00</Start><Finish>2024-06-12T08:00:00</Finish><Unit>1</Unit><Value>PT1H36M0S</Value></TimephasedData>
+      <WorkContour>8</WorkContour>
+      <TimephasedData><Type>2</Type><UID>29</UID><Start>2024-06-10T08:00:00</Start><Finish>2024-06-11T08:00:00</Finish><Unit>1</Unit><Value>PT0H38M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>29</UID><Start>2024-06-11T08:00:00</Start><Finish>2024-06-12T08:00:00</Finish><Unit>1</Unit><Value>PT0H39M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>29</UID><Start>2024-06-12T08:00:00</Start><Finish>2024-06-13T08:00:00</Finish><Unit>1</Unit><Value>PT0H38M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>29</UID><Start>2024-06-13T08:00:00</Start><Finish>2024-06-14T08:00:00</Finish><Unit>1</Unit><Value>PT0H39M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>29</UID><Start>2024-06-14T08:00:00</Start><Finish>2024-06-15T08:00:00</Finish><Unit>1</Unit><Value>PT0H38M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>29</UID><Start>2024-06-15T08:00:00</Start><Finish>2024-06-17T08:00:00</Finish><Unit>1</Unit><Value>PT0H0M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>29</UID><Start>2024-06-17T08:00:00</Start><Finish>2024-06-18T08:00:00</Finish><Unit>1</Unit><Value>PT0H38M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>29</UID><Start>2024-06-18T08:00:00</Start><Finish>2024-06-19T08:00:00</Finish><Unit>1</Unit><Value>PT0H39M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>29</UID><Start>2024-06-19T08:00:00</Start><Finish>2024-06-20T08:00:00</Finish><Unit>1</Unit><Value>PT0H38M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>29</UID><Start>2024-06-20T08:00:00</Start><Finish>2024-06-21T08:00:00</Finish><Unit>1</Unit><Value>PT0H39M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>29</UID><Start>2024-06-21T08:00:00</Start><Finish>2024-06-22T08:00:00</Finish><Unit>1</Unit><Value>PT0H38M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>29</UID><Start>2024-06-22T08:00:00</Start><Finish>2024-06-24T08:00:00</Finish><Unit>1</Unit><Value>PT0H0M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>29</UID><Start>2024-06-24T08:00:00</Start><Finish>2024-06-25T08:00:00</Finish><Unit>1</Unit><Value>PT0H38M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>29</UID><Start>2024-06-25T08:00:00</Start><Finish>2024-06-26T08:00:00</Finish><Unit>1</Unit><Value>PT0H39M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>29</UID><Start>2024-06-26T08:00:00</Start><Finish>2024-06-27T08:00:00</Finish><Unit>1</Unit><Value>PT0H38M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>29</UID><Start>2024-06-27T08:00:00</Start><Finish>2024-06-28T08:00:00</Finish><Unit>1</Unit><Value>PT0H39M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>29</UID><Start>2024-06-28T08:00:00</Start><Finish>2024-06-29T08:00:00</Finish><Unit>1</Unit><Value>PT0H38M0S</Value></TimephasedData>
       <TimephasedData><Type>1</Type><UID>29</UID><Start>2024-07-01T08:00:00</Start><Finish>2024-07-02T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
       <TimephasedData><Type>1</Type><UID>29</UID><Start>2024-07-02T08:00:00</Start><Finish>2024-07-03T08:00:00</Finish><Unit>1</Unit><Value>PT6H24M0S</Value></TimephasedData>
     </Assignment>
@@ -2904,7 +3142,9 @@
       <RemainingCost>243200</RemainingCost>
       <RemainingWork>PT25H36M0S</RemainingWork>
       <Start>2024-06-10T08:00:00</Start>
-      <Units>64.00</Units>
+      <Stop>2024-06-30T17:00:00</Stop>
+      <Resume>2024-07-03T08:00:00</Resume>
+      <Units>64</Units>
       <Work>PT64H0M0S</Work>
       <TimephasedData><Type>2</Type><UID>30</UID><Start>2024-06-10T08:00:00</Start><Finish>2024-06-30T17:00:00</Finish><Unit>1</Unit><Value>PT38H24M0S</Value></TimephasedData>
       <TimephasedData><Type>1</Type><UID>30</UID><Start>2024-07-03T08:00:00</Start><Finish>2024-07-08T16:00:00</Finish><Unit>1</Unit><Value>PT25H36M0S</Value></TimephasedData>
@@ -2922,10 +3162,22 @@
       <RemainingCost>594000</RemainingCost>
       <RemainingWork>PT108H0M0S</RemainingWork>
       <Start>2024-06-15T08:00:00</Start>
-      <Units>1.00</Units>
+      <Stop>2024-06-30T17:00:00</Stop>
+      <Resume>2024-07-09T08:00:00</Resume>
+      <Units>0.6383</Units>
       <Work>PT120H0M0S</Work>
-      <TimephasedData><Type>2</Type><UID>31</UID><Start>2024-06-17T08:00:00</Start><Finish>2024-06-18T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
-      <TimephasedData><Type>2</Type><UID>31</UID><Start>2024-06-18T08:00:00</Start><Finish>2024-06-19T08:00:00</Finish><Unit>1</Unit><Value>PT4H0M0S</Value></TimephasedData>
+      <WorkContour>8</WorkContour>
+      <TimephasedData><Type>2</Type><UID>31</UID><Start>2024-06-17T08:00:00</Start><Finish>2024-06-18T08:00:00</Finish><Unit>1</Unit><Value>PT1H12M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>31</UID><Start>2024-06-18T08:00:00</Start><Finish>2024-06-19T08:00:00</Finish><Unit>1</Unit><Value>PT1H12M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>31</UID><Start>2024-06-19T08:00:00</Start><Finish>2024-06-20T08:00:00</Finish><Unit>1</Unit><Value>PT1H12M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>31</UID><Start>2024-06-20T08:00:00</Start><Finish>2024-06-21T08:00:00</Finish><Unit>1</Unit><Value>PT1H12M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>31</UID><Start>2024-06-21T08:00:00</Start><Finish>2024-06-22T08:00:00</Finish><Unit>1</Unit><Value>PT1H12M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>31</UID><Start>2024-06-22T08:00:00</Start><Finish>2024-06-24T08:00:00</Finish><Unit>1</Unit><Value>PT0H0M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>31</UID><Start>2024-06-24T08:00:00</Start><Finish>2024-06-25T08:00:00</Finish><Unit>1</Unit><Value>PT1H12M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>31</UID><Start>2024-06-25T08:00:00</Start><Finish>2024-06-26T08:00:00</Finish><Unit>1</Unit><Value>PT1H12M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>31</UID><Start>2024-06-26T08:00:00</Start><Finish>2024-06-27T08:00:00</Finish><Unit>1</Unit><Value>PT1H12M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>31</UID><Start>2024-06-27T08:00:00</Start><Finish>2024-06-28T08:00:00</Finish><Unit>1</Unit><Value>PT1H12M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>31</UID><Start>2024-06-28T08:00:00</Start><Finish>2024-06-29T08:00:00</Finish><Unit>1</Unit><Value>PT1H12M0S</Value></TimephasedData>
       <TimephasedData><Type>1</Type><UID>31</UID><Start>2024-07-09T08:00:00</Start><Finish>2024-07-10T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
       <TimephasedData><Type>1</Type><UID>31</UID><Start>2024-07-10T08:00:00</Start><Finish>2024-07-11T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
       <TimephasedData><Type>1</Type><UID>31</UID><Start>2024-07-11T08:00:00</Start><Finish>2024-07-12T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
@@ -2956,10 +3208,15 @@
       <RemainingCost>180000</RemainingCost>
       <RemainingWork>PT24H0M0S</RemainingWork>
       <Start>2024-06-25T08:00:00</Start>
-      <Units>1.00</Units>
+      <Stop>2024-06-30T17:00:00</Stop>
+      <Resume>2024-07-29T08:00:00</Resume>
+      <Units>0.7143</Units>
       <Work>PT40H0M0S</Work>
-      <TimephasedData><Type>2</Type><UID>32</UID><Start>2024-06-25T08:00:00</Start><Finish>2024-06-26T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
-      <TimephasedData><Type>2</Type><UID>32</UID><Start>2024-06-26T08:00:00</Start><Finish>2024-06-27T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
+      <WorkContour>8</WorkContour>
+      <TimephasedData><Type>2</Type><UID>32</UID><Start>2024-06-25T08:00:00</Start><Finish>2024-06-26T08:00:00</Finish><Unit>1</Unit><Value>PT4H0M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>32</UID><Start>2024-06-26T08:00:00</Start><Finish>2024-06-27T08:00:00</Finish><Unit>1</Unit><Value>PT4H0M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>32</UID><Start>2024-06-27T08:00:00</Start><Finish>2024-06-28T08:00:00</Finish><Unit>1</Unit><Value>PT4H0M0S</Value></TimephasedData>
+      <TimephasedData><Type>2</Type><UID>32</UID><Start>2024-06-28T08:00:00</Start><Finish>2024-06-29T08:00:00</Finish><Unit>1</Unit><Value>PT4H0M0S</Value></TimephasedData>
       <TimephasedData><Type>1</Type><UID>32</UID><Start>2024-07-29T08:00:00</Start><Finish>2024-07-30T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
       <TimephasedData><Type>1</Type><UID>32</UID><Start>2024-07-30T08:00:00</Start><Finish>2024-07-31T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
       <TimephasedData><Type>1</Type><UID>32</UID><Start>2024-07-31T08:00:00</Start><Finish>2024-08-01T08:00:00</Finish><Unit>1</Unit><Value>PT8H0M0S</Value></TimephasedData>
@@ -2976,7 +3233,7 @@
       <RemainingCost>2200000</RemainingCost>
       <RemainingWork>PT400H0M0S</RemainingWork>
       <Start>2024-07-01T08:00:00</Start>
-      <Units>1.00</Units>
+      <Units>1</Units>
       <Work>PT400H0M0S</Work>
     </Assignment>
     <Assignment>
@@ -2991,7 +3248,7 @@
       <RemainingCost>300000</RemainingCost>
       <RemainingWork>PT40H0M0S</RemainingWork>
       <Start>2024-09-09T08:00:00</Start>
-      <Units>1.00</Units>
+      <Units>1</Units>
       <Work>PT40H0M0S</Work>
     </Assignment>
     <Assignment>
@@ -3006,7 +3263,7 @@
       <RemainingCost>1140000</RemainingCost>
       <RemainingWork>PT120H0M0S</RemainingWork>
       <Start>2024-09-16T08:00:00</Start>
-      <Units>120.00</Units>
+      <Units>120</Units>
       <Work>PT120H0M0S</Work>
     </Assignment>
     <Assignment>
@@ -3021,7 +3278,7 @@
       <RemainingCost>88000</RemainingCost>
       <RemainingWork>PT16H0M0S</RemainingWork>
       <Start>2024-10-07T08:00:00</Start>
-      <Units>1.00</Units>
+      <Units>1</Units>
       <Work>PT16H0M0S</Work>
     </Assignment>
     <Assignment>
@@ -3036,7 +3293,7 @@
       <RemainingCost>900000</RemainingCost>
       <RemainingWork>PT120H0M0S</RemainingWork>
       <Start>2024-10-09T08:00:00</Start>
-      <Units>1.00</Units>
+      <Units>1</Units>
       <Work>PT120H0M0S</Work>
     </Assignment>
     <Assignment>
@@ -3051,7 +3308,7 @@
       <RemainingCost>380000</RemainingCost>
       <RemainingWork>PT40H0M0S</RemainingWork>
       <Start>2024-10-11T08:00:00</Start>
-      <Units>40.00</Units>
+      <Units>40</Units>
       <Work>PT40H0M0S</Work>
     </Assignment>
     <Assignment>
@@ -3066,7 +3323,7 @@
       <RemainingCost>120000</RemainingCost>
       <RemainingWork>PT16H0M0S</RemainingWork>
       <Start>2024-11-08T08:00:00</Start>
-      <Units>1.00</Units>
+      <Units>1</Units>
       <Work>PT16H0M0S</Work>
     </Assignment>
     <Assignment>
@@ -3081,7 +3338,7 @@
       <RemainingCost>380000</RemainingCost>
       <RemainingWork>PT40H0M0S</RemainingWork>
       <Start>2024-11-12T08:00:00</Start>
-      <Units>40.00</Units>
+      <Units>40</Units>
       <Work>PT40H0M0S</Work>
     </Assignment>
     <Assignment>
@@ -3096,7 +3353,7 @@
       <RemainingCost>440000</RemainingCost>
       <RemainingWork>PT80H0M0S</RemainingWork>
       <Start>2024-11-19T08:00:00</Start>
-      <Units>1.00</Units>
+      <Units>1</Units>
       <Work>PT80H0M0S</Work>
     </Assignment>
     <Assignment>
@@ -3111,7 +3368,7 @@
       <RemainingCost>480000</RemainingCost>
       <RemainingWork>PT64H0M0S</RemainingWork>
       <Start>2024-12-03T08:00:00</Start>
-      <Units>1.00</Units>
+      <Units>1</Units>
       <Work>PT64H0M0S</Work>
     </Assignment>
     <Assignment>
@@ -3126,7 +3383,7 @@
       <RemainingCost>228000</RemainingCost>
       <RemainingWork>PT24H0M0S</RemainingWork>
       <Start>2024-12-13T08:00:00</Start>
-      <Units>24.00</Units>
+      <Units>24</Units>
       <Work>PT24H0M0S</Work>
     </Assignment>
     <Assignment>
@@ -3141,7 +3398,7 @@
       <RemainingCost>132000</RemainingCost>
       <RemainingWork>PT24H0M0S</RemainingWork>
       <Start>2025-01-02T08:00:00</Start>
-      <Units>1.00</Units>
+      <Units>1</Units>
       <Work>PT24H0M0S</Work>
     </Assignment>
     <Assignment>
@@ -3156,7 +3413,7 @@
       <RemainingCost>3800000</RemainingCost>
       <RemainingWork>PT400H0M0S</RemainingWork>
       <Start>2025-01-07T08:00:00</Start>
-      <Units>400.00</Units>
+      <Units>400</Units>
       <Work>PT400H0M0S</Work>
     </Assignment>
     <Assignment>
@@ -3171,7 +3428,7 @@
       <RemainingCost>88000</RemainingCost>
       <RemainingWork>PT16H0M0S</RemainingWork>
       <Start>2025-03-18T08:00:00</Start>
-      <Units>1.00</Units>
+      <Units>1</Units>
       <Work>PT16H0M0S</Work>
     </Assignment>
     <Assignment>
@@ -3186,7 +3443,7 @@
       <RemainingCost>480000</RemainingCost>
       <RemainingWork>PT64H0M0S</RemainingWork>
       <Start>2025-03-20T08:00:00</Start>
-      <Units>1.00</Units>
+      <Units>1</Units>
       <Work>PT64H0M0S</Work>
     </Assignment>
     <Assignment>
@@ -3201,7 +3458,7 @@
       <RemainingCost>760000</RemainingCost>
       <RemainingWork>PT80H0M0S</RemainingWork>
       <Start>2025-04-01T08:00:00</Start>
-      <Units>80.00</Units>
+      <Units>80</Units>
       <Work>PT80H0M0S</Work>
     </Assignment>
     <Assignment>
@@ -3216,7 +3473,7 @@
       <RemainingCost>132000</RemainingCost>
       <RemainingWork>PT24H0M0S</RemainingWork>
       <Start>2025-04-15T08:00:00</Start>
-      <Units>1.00</Units>
+      <Units>1</Units>
       <Work>PT24H0M0S</Work>
     </Assignment>
     <Assignment>
@@ -3231,7 +3488,7 @@
       <RemainingCost>3000000</RemainingCost>
       <RemainingWork>PT400H0M0S</RemainingWork>
       <Start>2025-04-18T08:00:00</Start>
-      <Units>1.00</Units>
+      <Units>1</Units>
       <Work>PT400H0M0S</Work>
     </Assignment>
   </Assignments>
