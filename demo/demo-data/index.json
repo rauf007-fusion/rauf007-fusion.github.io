@@ -39,6 +39,7 @@
  "windows": 200,
  "report-pack": 200,
  "chainage": 200,
+ "routemap": 200,
  "compare": 200,
  "review": 200,
  "risk-scope": 200,
